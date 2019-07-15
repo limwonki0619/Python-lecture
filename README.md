@@ -6,7 +6,7 @@
 
 ### 학습에 도움이 되는 사이트 및 유튜브 채널
  > [파이썬 튜터](http://pythontutor.com/live.html#mode=edit)는 live programing으로 파이썬의 작동원리를 파악할 수 있습니다.   
- > [K-Mooc](http://www.kmooc.kr/)은 한국형 온라인 공개 강좌입니다. 다양한 대학의 강의를 들을 수 있습니다. 
+ > [K-Mooc](http://www.kmooc.kr/)은 한국형 온라인 공개 강좌입니다. 다양한 대학의 강의를 들을 수 있습니다.  
  > [허민석님 유투브](https://www.youtube.com/user/TheEasyoung/videos)는 다양한 파이썬 강의와 머신러닝 딥러닝 등의 정보를 제공해줍니다. 
 
 ### Anaconda 설치 방법
