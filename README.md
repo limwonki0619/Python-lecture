@@ -4,7 +4,7 @@
 소스코드 : [파이썬코딩도장 소스코드](https://github.com/namjaeyoon/python.dojang)  
 저자 : 남재윤 (도서출판 길벗)  
 
-### 학습에 도움이 되는 사이트 및 유투브 채널
+### 학습에 도움이 되는 사이트 및 유튜브 채널
  > [파이썬 튜터](http://pythontutor.com/live.html#mode=edit)는 live programing으로 파이썬의 작동원리를 파악할 수 있습니다.   
  > [허민석님 유투브](https://www.youtube.com/user/TheEasyoung/videos)는 다양한 파이썬 강의와 머신러닝 딥러닝 등의 정보를 제공해줍니다. 
 
