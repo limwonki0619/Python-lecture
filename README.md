@@ -4,10 +4,11 @@
 소스코드 : [파이썬코딩도장 소스코드](https://github.com/namjaeyoon/python.dojang)  
 저자 : 남재윤 (도서출판 길벗)  
 
-[파이썬 튜터](http://pythontutor.com/live.html#mode=edit)
+### 학습에 도움이 되는 사이트 및 유투브 채널
+ > [파이썬 튜터](http://pythontutor.com/live.html#mode=edit)는 live programing으로 파이썬의 작동원리를 파악할 수 있습니다.   
+ > [허민석 유투브](다양한 파이썬 강의) 다양한 파이썬 강의와 머신러닝 딥러닝 등의 정보를 제공해줍니다. 
 
 ### Anaconda 설치 방법
-
  > 1. [아나콘다 홈페이지 다운로드](https://www.anaconda.com/distribution/)페이지로 이동 합니다.
  > 2. Windowns 버전을 선택하고 python 3.7 vesrion을 컴퓨터 환경(64bit|32bit)에 맞게 설치 파일을 다운로드 합니다. 
  > 3. 설치파일을 실행한 후 사용자 환경(`All user | Just me`)과 폴더 위치를 선택합니다.
