@@ -25,4 +25,4 @@
  > **2019.07.15**  
  >> - [기본문법 핵심정리](https://dojang.io/mod/page/view.php?id=2168)  
  >> - [숫자 계산, 변수 입력 및 사용, 출력 방법 핵심정리](https://dojang.io/mod/page/view.php?id=2189)
- >> - 
+ >> - [불과 비교 및 논리 연산자, 문자열 사용, 리스트와 튜플, 시퀀스 자료형, 딕셔너리 사용방법 핵심정리](https://dojang.io/mod/page/view.php?id=2218)
