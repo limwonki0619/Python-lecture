@@ -23,5 +23,6 @@
  
 ### 강의 핵심 내용 정리 및 요약본 
  > **2019.07.15**  
- >> - 기본문법, 숫자계산, 변수 입력 및 사용  
- >> - [핵심정리 1](https://dojang.io/mod/page/view.php?id=2168)
+ >> - [기본문법 핵심정리](https://dojang.io/mod/page/view.php?id=2168)  
+ >> - [숫자 계산, 변수 입력 및 사용, 출력 방법 핵심정리](https://dojang.io/mod/page/view.php?id=2189)
+ >> - 
