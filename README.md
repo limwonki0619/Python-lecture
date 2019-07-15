@@ -4,8 +4,6 @@
 소스코드 : [파이썬코딩도장 소스코드](https://github.com/namjaeyoon/python.dojang)  
 저자 : 남재윤 (도서출판 길벗)  
 
-파이썬 기초에 대한 강의 입니다.
-
 [파이썬 튜터](http://pythontutor.com/live.html#mode=edit)
 
 ### Anaconda 설치 방법
