@@ -26,10 +26,14 @@
  > - 선택할 경우 **윈도우 CMD창 경로와 상관없이 아나콘다를 파이썬으로 인식합니다.** 
  <br>
  
-## 파이참(PyCharm) 설치 방법
+## 파이참(PyCharm) 설치 방법 및 사용자 설정
  > 1. [파이참 홈페이지](https://www.jetbrains.com/pycharm/download/#section=windows)에서 Community버전을 다운로드 합니다.
  > 2. 경로를 원하는 곳을 지정 한 후 `Installation Options`에서 `64-bit launcher`와 `.py` `Add launchers dir to the PATH`를 체크해줍니다.
- > 3. 설치를 완료하고 파이참 내에서 사용자 설정을 해줍니다.  
+ > 3. 설치를 마무리 합니다.
+ > 4. 파이참 실행 후 **File -> Settings -> Project:**에서 Interpreter를 anaconda에 설치된 pytheon으로 설정해줍니다.**
+ > 5. 다음으로 **Setting -> Appearance & behavior와 Editor**에서 폰트를 변경할 수 있습니다.
+ > 6. 또한 **Keymap**에서 검색창에 `Execute selection in console`을 검색한 후 편한 단축키로 변경합니다.
+ > + 기본 단축키인 Alt+shift+E는 코드를 한 줄 씩 실행합니다. 이를 통해 `console`창에서 코드 각각을 확인할 수 있습니다. 
  > [참고 : Python 가상환경 venv 간단한 사용법 + 주의사항](https://seolin.tistory.com/96)
  <br>
  
