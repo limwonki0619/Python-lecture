@@ -15,7 +15,7 @@
  > 2. Windowns 버전을 선택하고 python 3.7 vesrion을 컴퓨터 환경(64bit|32bit)에 맞게 설치 파일을 다운로드 합니다. 
  > 3. 설치파일을 실행한 후 사용자 환경(`All user | Just me`)과 폴더 위치를 선택합니다.
  > 4. Advanced Options에서 기존 파이썬이 설치되어 있지 않다면 `Register Anaconda as the system python 3.7`옵션을 선택합니다.
- > 5. 그리고 `Add Anaconda to the system PATH enviroment variable` 옵션으로 (시스템)환경변수를 자동으로 설정해주고 `install`합니다.    
+ > 5. 그리고 `Add Anaconda to the system PATH enviroment variable` 옵션으로 (시스템)환경변수를 자동으로 설정해주고 `install`합니다.  
  > **단, 아나콘다에서 추천하는 방법은 아닙니다. 옵션의 설명은 다음과 같습니다.**
  > - PATH 환경 변수에 Anaconda를 추가할지 여부를 선택하십시오. 
  > - PATH 환경 변수에 **다른 소프트웨어를 방해 할 수 있으므로** Anaconda를 추가하지 않는 것이 좋습니다. 
