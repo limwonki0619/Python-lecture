@@ -1,4 +1,4 @@
-# Python-lecture 
+﻿# Python-lecture 
 
 교재 : [파이썬 코딩 도장](https://dojang.io/course/view.php?id=7)  
 소스코드 : [파이썬코딩도장 소스코드](https://github.com/namjaeyoon/python.dojang)  
@@ -22,10 +22,19 @@
  >> - 환경변수에 추가할지를 선택 아나콘다 외에 다른 파이썬 인터프리터를 환경변수에 등록해서 사용 한다면 체크 해제 하고,
  >> - 아나콘다만을 사용하는 경우 또는 아나콘다가 주력일 경우로 윈도우 CMD창에서 파이썬을 실행할 경우 선택합니다. 
  >> - 선택할 경우 **윈도우 CMD창 경로와 상관없이 아나콘다를 파이썬으로 인식합니다.** 
+
+### 파이참(PyCharm) 설치 및 아나콘다 가상환경 적용
+ > 1. [파이참 홈페이지](https://www.jetbrains.com/pycharm/download/#section=windows)에서 Community버전을 다운로드 합니다.
+ > 2. 경로를 원하는 곳을 지정 한 후 `Installation Options`에서 `64-bit launcher`와 `.py` `Add launchers dir to the PATH`를 체크해줍니다.
+ > 3. 설치를 완료하고 파이참 내에서 사용자 설정을 해줍니다. 
+ > [파이참(PyCharm) 설치 및 아나콘다 가상환경 적용](https://bradbury.tistory.com/63)
+ > [Python 가상환경 venv 간단한 사용법 + 주의사항](https://seolin.tistory.com/96)
  
 ### 강의 핵심 내용 요약본 
  > **2019.07.15**  
  >> - [기본문법 핵심정리](https://dojang.io/mod/page/view.php?id=2168)  
  >> - [숫자 계산, 변수 입력 및 사용, 출력 방법, 파이썬 연산자 핵심정리](https://dojang.io/mod/page/view.php?id=2189)
  >> - [불과 비교 및 논리 연산자, 문자열, 리스트와 튜플, 시퀀스 자료, 딕셔너리 사용법 핵심정리](https://dojang.io/mod/page/view.php?id=2218)
-
+ > **2019.07.16**
+ >> - [논리 및 비교 연산자, 문자열, 리스트, 튜플, 시퀀스 자료형, 딕셔너리 핵심정리](https://dojang.io/mod/page/view.php?id=2218) 
+ >> - 
