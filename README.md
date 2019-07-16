@@ -38,6 +38,7 @@
  >> - [기본문법 핵심정리](https://dojang.io/mod/page/view.php?id=2168)  
  >> - [숫자 계산, 변수 입력 및 사용, 출력 방법, 파이썬 연산자 핵심정리](https://dojang.io/mod/page/view.php?id=2189)
  >> - [불과 비교 및 논리 연산자, 문자열, 리스트와 튜플, 시퀀스 자료, 딕셔너리 사용법 핵심정리](https://dojang.io/mod/page/view.php?id=2218)  
+ 
  > **2019.07.16**
  >> - [논리 및 비교 연산자, 문자열, 리스트, 튜플, 시퀀스 자료형, 딕셔너리 핵심정리](https://dojang.io/mod/page/view.php?id=2218) 
  >> - Unit08 ~ Unit12 심사문제 제출하기 
