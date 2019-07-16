@@ -33,7 +33,7 @@
  > [참고 : Python 가상환경 venv 간단한 사용법 + 주의사항](https://seolin.tistory.com/96)
  <br>
  
-## 아나콘다와 파이참 가상환경 연동시키기
+## 아나콘다(Anaconda)와 파이참(PyCharm) 가상환경 연동시키기
  > 1. 먼저 `Anaconda Navigator`에서 왼쪽에 있는 `Environments`를 선택합니다. 
  > 2. 하단에 있는 `Create`를 눌러 가상환경으로 사용할 폴더 이름과 파이썬 버전을 선택하고, 가상환경을 만들어 줍니다.
  > 3. 기존의 `base(root)` 아래에 가상환경이 만들어집니다. *추가적으로 `Search Packages`를 통해 필요한 패키지를 선택하여 설치할 수 있습니다.*
