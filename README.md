@@ -17,7 +17,7 @@
  > 4. Advanced Options에서 기존 파이썬이 설치되어 있지 않다면 `Register Anaconda as the system python 3.7`옵션을 선택합니다.
  > 5. 그리고 `Add Anaconda to the system PATH enviroment variable` 옵션으로 (시스템)환경변수를 자동으로 설정해주고 `install`합니다.  
  
- > - 단, 아나콘다에서 추천하는 방법은 아닙니다. 옵션의 설명은 다음과 같습니다.**
+ > *단, 아나콘다에서 추천하는 방법은 아닙니다. 옵션의 설명은 다음과 같습니다.*
  > - PATH 환경 변수에 Anaconda를 추가할지 여부를 선택하십시오. 
  > - PATH 환경 변수에 **다른 소프트웨어를 방해 할 수 있으므로** Anaconda를 추가하지 않는 것이 좋습니다. 
  > - 대신 시작 메뉴에서 Anaconda Navigator 또는 Anaconda Prompt를 열어 Anaconda 소프트웨어를 사용하십시오.
