@@ -29,8 +29,7 @@
  > 1. [파이참 홈페이지](https://www.jetbrains.com/pycharm/download/#section=windows)에서 Community버전을 다운로드 합니다.
  > 2. 경로를 원하는 곳을 지정 한 후 `Installation Options`에서 `64-bit launcher`와 `.py` `Add launchers dir to the PATH`를 체크해줍니다.
  > 3. 설치를 완료하고 파이참 내에서 사용자 설정을 해줍니다.  
- > [파이참(PyCharm) 설치 및 아나콘다 가상환경 적용](https://bradbury.tistory.com/63)  
- > [Python 가상환경 venv 간단한 사용법 + 주의사항](https://seolin.tistory.com/96)
+ > [참고 : Python 가상환경 venv 간단한 사용법 + 주의사항](https://seolin.tistory.com/96)
  <br>
  
 ## 아나콘다와 파이참 가상환경 연동시키기
@@ -44,6 +43,7 @@
  > 7. 여기서 `Existing interpreter`를 눌러 **Anaconda에서 만든 가상환경 폴더에 위치한 Python**을 선택해 주고, `Create`를 눌러줍니다.
  > 8. 새로운 환경에서 `test.py`를 생성한 후 아래에 있는 `Console`창에서 파이썬 버전을 확인하고,`hello world`를 출력해 봅니다.
  > 9. 출력이 정상적으로 된다면 가상환경을 제대로 구축한 것입니다. 
+ > [참고 : 파이참(PyCharm) 설치 및 아나콘다 가상환경 적용](https://bradbury.tistory.com/63)  
 <br>
 
 ## 강의 핵심 내용 요약본   
