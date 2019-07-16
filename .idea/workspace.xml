@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d266541-4bb9-476d-8120-a7bfea0cdda2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2d266541-4bb9-476d-8120-a7bfea0cdda2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit12. 딕셔너리 사용하기.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+            <state relative-caret-position="176">
+              <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -64,6 +62,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -78,24 +77,18 @@
             </path>
             <path>
               <item name="Python-lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python-lecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Reference" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python-lecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/AN/envs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python-JupyterNotebook" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -208,7 +201,7 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.31338027" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.31338027" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32929516" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49868074" weight="0.32929516" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50079155" side_tool="true" weight="0.36013216" />
@@ -219,7 +212,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32929516" />
-      <window_info active="true" anchor="bottom" x="20" y="284" width="1168" height="471" id="Python Console" order="10" sideWeight="0.5013193" visible="true" weight="0.46681663" />
+      <window_info anchor="bottom" x="20" y="284" width="1168" height="471" id="Python Console" order="10" sideWeight="0.5013193" visible="true" weight="0.46681663" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -317,8 +310,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit12. 딕셔너리 사용하기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        <state relative-caret-position="176">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
         </state>
       </provider>
     </entry>
