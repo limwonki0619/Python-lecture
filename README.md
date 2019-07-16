@@ -32,10 +32,12 @@
  > [파이참(PyCharm) 설치 및 아나콘다 가상환경 적용](https://bradbury.tistory.com/63)
  > [Python 가상환경 venv 간단한 사용법 + 주의사항](https://seolin.tistory.com/96)
  <br>
+ 
 ## 아나콘다와 파이참 가상환경 연동시키기
  > 1. 
 
 <br>
+
 ## 강의 핵심 내용 요약본   
 ### **2019.07.15**  
  > - [기본문법 핵심정리](https://dojang.io/mod/page/view.php?id=2168)  
