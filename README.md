@@ -30,7 +30,7 @@
  > 1. [파이참 홈페이지](https://www.jetbrains.com/pycharm/download/#section=windows)에서 Community버전을 다운로드 합니다.
  > 2. 경로를 원하는 곳을 지정 한 후 `Installation Options`에서 `64-bit launcher`와 `.py` `Add launchers dir to the PATH`를 체크해줍니다.
  > 3. 설치를 마무리 합니다.
- > 4. 파이참 실행 후 **File -> Settings -> Project:**에서 Interpreter를 anaconda에 설치된 pytheon으로 설정해줍니다.**
+ > 4. 파이참 실행 후 **File -> Settings -> Project:**에서 Interpreter를 anaconda에 설치된 pytheon으로 설정해줍니다.
  > 5. 다음으로 **Setting -> Appearance & behavior와 Editor**에서 폰트를 변경할 수 있습니다.
  > 6. 또한 **Keymap**에서 검색창에 `Execute selection in console`을 검색한 후 편한 단축키로 변경합니다.
  > + 기본 단축키인 Alt+shift+E는 코드를 한 줄 씩 실행합니다. 이를 통해 `console`창에서 코드 각각을 확인할 수 있습니다. 
