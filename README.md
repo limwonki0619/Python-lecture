@@ -28,8 +28,8 @@
 ## 파이참(PyCharm) 설치 방법
  > 1. [파이참 홈페이지](https://www.jetbrains.com/pycharm/download/#section=windows)에서 Community버전을 다운로드 합니다.
  > 2. 경로를 원하는 곳을 지정 한 후 `Installation Options`에서 `64-bit launcher`와 `.py` `Add launchers dir to the PATH`를 체크해줍니다.
- > 3. 설치를 완료하고 파이참 내에서 사용자 설정을 해줍니다. 
- > [파이참(PyCharm) 설치 및 아나콘다 가상환경 적용](https://bradbury.tistory.com/63)
+ > 3. 설치를 완료하고 파이참 내에서 사용자 설정을 해줍니다.  
+ > [파이참(PyCharm) 설치 및 아나콘다 가상환경 적용](https://bradbury.tistory.com/63)  
  > [Python 가상환경 venv 간단한 사용법 + 주의사항](https://seolin.tistory.com/96)
  <br>
  
