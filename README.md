@@ -16,12 +16,12 @@
  > 4. Advanced Options에서 기존 파이썬이 설치되어 있지 않다면 `Register Anaconda as the system python 3.7`옵션을 선택합니다.
  > 5. 그리고 `Add Anaconda to the system PATH enviroment variable` 옵션으로 (시스템)환경변수를 자동으로 설정해주고 `install`합니다.  
  > *단, 아나콘다에서 추천하는 방법은 아닙니다. 옵션의 설명은 다음과 같습니다.*
- >> - PATH 환경 변수에 Anaconda를 추가할지 여부를 선택하십시오. 
- >> - PATH 환경 변수에 **다른 소프트웨어를 방해 할 수 있으므로** Anaconda를 추가하지 않는 것이 좋습니다. 
- >> - 대신 시작 메뉴에서 Anaconda Navigator 또는 Anaconda Prompt를 열어 Anaconda 소프트웨어를 사용하십시오.
- >> - 환경변수에 추가할지를 선택 아나콘다 외에 다른 파이썬 인터프리터를 환경변수에 등록해서 사용 한다면 체크 해제 하고,
- >> - 아나콘다만을 사용하는 경우 또는 아나콘다가 주력일 경우로 윈도우 CMD창에서 파이썬을 실행할 경우 선택합니다. 
- >> - 선택할 경우 **윈도우 CMD창 경로와 상관없이 아나콘다를 파이썬으로 인식합니다.** 
+ > - PATH 환경 변수에 Anaconda를 추가할지 여부를 선택하십시오. 
+ > - PATH 환경 변수에 **다른 소프트웨어를 방해 할 수 있으므로** Anaconda를 추가하지 않는 것이 좋습니다. 
+ > - 대신 시작 메뉴에서 Anaconda Navigator 또는 Anaconda Prompt를 열어 Anaconda 소프트웨어를 사용하십시오.
+ > - 환경변수에 추가할지를 선택 아나콘다 외에 다른 파이썬 인터프리터를 환경변수에 등록해서 사용 한다면 체크 해제 하고,
+ > - 아나콘다만을 사용하는 경우 또는 아나콘다가 주력일 경우로 윈도우 CMD창에서 파이썬을 실행할 경우 선택합니다. 
+ > - 선택할 경우 **윈도우 CMD창 경로와 상관없이 아나콘다를 파이썬으로 인식합니다.** 
 
 ### 파이참(PyCharm) 설치 방법
  > 1. [파이참 홈페이지](https://www.jetbrains.com/pycharm/download/#section=windows)에서 Community버전을 다운로드 합니다.
@@ -41,4 +41,3 @@
 
 **2019.07.16**
  > - [논리 및 비교 연산자, 문자열, 리스트, 튜플, 시퀀스 자료형, 딕셔너리 핵심정리](https://dojang.io/mod/page/view.php?id=2218) 
- > - Unit08 ~ Unit12 심사문제 제출하기 
