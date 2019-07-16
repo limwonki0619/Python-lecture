@@ -28,7 +28,7 @@
  
 ## 파이참(PyCharm) 설치 방법 및 사용자 설정
  > 1. [파이참 홈페이지](https://www.jetbrains.com/pycharm/download/#section=windows)에서 Community버전을 다운로드 합니다.
- > 2. 경로를 원하는 곳을 지정 한 후 `Installation Options`에서 `64-bit launcher`와 `.py` `Add launchers dir to the PATH`를 체크해줍니다.
+ > 2. 경로를 원하는 곳을 지정 한 후 `Installation Options`에서 `64-bit launcher`와 `.py`, `Add launchers dir to the PATH`를 체크해줍니다.
  > 3. 설치를 마무리 합니다.
  > 4. 파이참 실행 후 `File -> Settings -> Project:`에서 `Interpreter`를 `anaconda에 설치된 pytheon`으로 설정해줍니다.
  > 5. 다음으로 `Setting -> Appearance & behavior와 Editor`에서 폰트를 변경할 수 있습니다.
