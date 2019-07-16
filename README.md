@@ -23,13 +23,16 @@
  >> - 아나콘다만을 사용하는 경우 또는 아나콘다가 주력일 경우로 윈도우 CMD창에서 파이썬을 실행할 경우 선택합니다. 
  >> - 선택할 경우 **윈도우 CMD창 경로와 상관없이 아나콘다를 파이썬으로 인식합니다.** 
 
-### 파이참(PyCharm) 설치 및 아나콘다 가상환경 적용
+### 파이참(PyCharm) 설치 방법
  > 1. [파이참 홈페이지](https://www.jetbrains.com/pycharm/download/#section=windows)에서 Community버전을 다운로드 합니다.
  > 2. 경로를 원하는 곳을 지정 한 후 `Installation Options`에서 `64-bit launcher`와 `.py` `Add launchers dir to the PATH`를 체크해줍니다.
  > 3. 설치를 완료하고 파이참 내에서 사용자 설정을 해줍니다. 
  > [파이참(PyCharm) 설치 및 아나콘다 가상환경 적용](https://bradbury.tistory.com/63)
  > [Python 가상환경 venv 간단한 사용법 + 주의사항](https://seolin.tistory.com/96)
- 
+
+### 아나콘다와 파이참 가상환경 연동시키기
+ > 1. 
+
 ### 강의 핵심 내용 요약본 
  > **2019.07.15**  
  >> - [기본문법 핵심정리](https://dojang.io/mod/page/view.php?id=2168)  
