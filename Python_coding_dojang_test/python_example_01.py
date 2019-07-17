@@ -65,7 +65,7 @@ def order():
 
 order()
 
-# 정열 알고리즘 http://ejklike.github.io/2017/03/04/sorting-algorithms-with-python.html
+# 정 알고리즘 http://ejklike.github.io/2017/03/04/sorting-algorithms-with-python.html
 
 
 # 1.4 세 자연수 a, b, c 가 피타고라스 정리 a^2 + b^2 = c^2 를 만족하면 피타고라스 수라고 부른다.
