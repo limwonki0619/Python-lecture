@@ -41,7 +41,7 @@ print(1900 % 400 == 0)  # F 400의 배수가 아니다. -> 평년
 
 def alarm():
     hour, minute = map(int, input('알람시간을 입력해 주세요.').split())
-    if 45 < minute < 60:
+    if 45 <= minute < 60:
         minute -= 45
         print('알람 예정 시간은', hour,'시', minute,'분 입니다.')
     else:
@@ -69,7 +69,7 @@ order()
 # 정렬 알고리즘 http://ejklike.github.io/2017/03/04/sorting-algorithms-with-python.html
 
 
-# 1.4 세 자연수 a, b, c 가 피타고라스 정리 a^2 + b^2 = c^2 를 만족하면 피타고라스 수라고 부른다.
+# 1.4 세 자연수 a, b, c 가 피타고라스 정리 a^2 + b^2 = c^2 를 만족하면 피타고라스 수라고 부른다. -------------------
 # (여기서 a < b < c 이고 a + b > c)
 # 예를 들면, 32 + 42 = 9 + 16 = 25 = 52 이므로 3, 4, 5는 피타고라스 수다.
 # a + b + c = 1000 인 피타고라스 수를 구하시오. (답은 한가지 뿐이다.)
@@ -98,11 +98,17 @@ for a in range(1, 1000):    # a에 들어갈 수 있는 수를 모두 뽑는다.
 # x는 테스트 케이스 번호이고 1부터 시작하며, C는 A+B이다.
 
 
+# 모범답안 ***
+
+# count = int(input('테스트 케이스의 개수> '))
+# a, b = map(int, input('두 수 입력> ').split())
+#
+# for i in range(1, count+1):
+#     print('Case #'+str(i)+':', a, '+', b, '=', a+b)
 
 
 
-
-# 2.2 5이상 9이하의 홀수를 입력받아 다이아몬드 형태의 별을 출력하는 프로그램을 작성하시오.
+# 2.2 5이상 9이하의 홀수를 입력받아 다이아몬드 형태의 별을 출력하는 프로그램을 작성하시오.  --------------------------
 def diamond():
     N = int(input('5 이상 9 이하의 홀수를 입력해 주세요.'))
 
@@ -136,7 +142,7 @@ diamond()
 #  0  4(0:4)    1
 
 
-# 2.3 디지털 시계에 하루동안(00:00~23:59) 3이 표시되는 시간을 초로 환산하면 총 몇 초(second) 일까요?
+# 2.3 디지털 시계에 하루동안(00:00~23:59) 3이 표시되는 시간을 초로 환산하면 총 몇 초(second) 일까요? ---------------
 #  - 디지털 시계는 하루동안 다음과 같이 시:분(00:00~23:59)으로 표시됨.
 
 # 오답 
@@ -151,10 +157,15 @@ diamond()
 # print(total)
 
 
-# 2.4 1~1000에서 각 숫자의 개수를 구하시오.
-#  - 예로 10 ~ 15 까지의 각 숫자의 개수를 구해보자.
+# 모범답안 ***
 
-start, end = map(int, input().split())
+# for hour in range(24):
+#     for min in range(60):
+#         time = str(hour) + str(min)
+#         if '3' in time:# 2.4 1~1000에서 각 숫자의 개수를 구하시오.
+#             total += 60#  - 예로 10 ~ 15 까지의 각 숫자의 개수를 구해보자.
+#
+# print(total)start, end = map(int, input().split())
 
 for i in range(start, end):
     print(str(i)[0], str(i)[1])
@@ -163,4 +174,63 @@ for i in range(start, end):
 
 len(str(0)+str(0)+str(0))
 
-# 리스트에 추가하는 방법으로 해보기
+# 2.4  1~1000에서 각 숫자의 개수  ------------------------------------------------------------------------
+
+
+# 모범답안 ***
+
+# counts = [0] * 10
+#
+# for i in range(1, 10):
+#     counts[i] += 1
+# for i in range(10, 100):
+#     counts[i // 10] += 1
+#     counts[i % 10] += 1
+# for i in range(100, 1000):
+#     counts[i // 100] += 1
+#     counts[(i % 100) // 10] += 1
+#     counts[i % 10] += 1
+# for i in range(1000, 1001):
+#     counts[i // 1000] += 1
+#     counts[(i % 1000) // 100] += 1
+#     counts[(i % 100) // 10] += 1
+#     counts[i % 10] += 1
+#
+# print(counts)
+
+
+
+
+# 2.5 자기 자신을 제외한 모든 양의 약수들의 합이 자기 자신이 되는 자연수 -------------------------------
+
+
+# 모범답안
+
+def getDivisor(number):     # 자기 자신을 제외한 약수를 구하는 함수
+    result = list()
+    for i in range(1, number):
+        if number % i == 0:
+            result.append(i)
+    return result
+
+n = int(input('정수 입력> '))
+for i in range(1, n+1):
+    div = getDivisor(i)
+    if i == sum(div):
+        print(i)
+
+
+# 2.6 1부터 N까지 자연수에 대해 "합의 제곱"과 "제곱의 합"의 차이  --------------------------------------------------
+
+# 모범답안 -------------------------------------------------
+n = int(input('자연수 입력> '))
+
+sumOfSquare = 0
+sum = 0
+for i in range(1, n+1):
+    sum += i
+    sumOfSquare += i ** 2
+squareOfSum = sum ** 2
+print('합의 제곱 =', squareOfSum)
+print('제곱의 합 =', sumOfSquare)
+print('차이 =', squareOfSum - sumOfSquare)
