@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d266541-4bb9-476d-8120-a7bfea0cdda2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Notebook/Unit23_2차원 리스트 다루기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notebook/Unit24_문자열 조작하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit22.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit23.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit24.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notebook/Unit25_딕셔너리 응용하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notebook/Unit26_세트 사용하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notebook/Unit27_파일 사용하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit25.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit26.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit27.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_coding_dojang/Unit25_딕셔너리 응용하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_coding_dojang/Unit26_세트 사용하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_coding_dojang/Unit27_파일 사용하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_coding_dojang/Unit28_회문판별과 N-gram 만들기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebook/Unot23_2차원 리스트 다루기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_coding_dojang/Unit24_문자열 조작하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_coding_dojang/Unit24_문자열 조작하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebook/Unit23_2차원 리스트 다루기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook/Unit23_2차원 리스트 다루기.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,10 +24,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Notebook/Unit23_2차원 리스트 다루기.py">
+        <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit28_회문판별과 N-gram 만들기.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="70" column="24" lean-forward="true" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+            <state relative-caret-position="-88">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -43,17 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python_coding_dojang/Unit11. 시퀀스 자료형 활용하기.py" />
-        <option value="$PROJECT_DIR$/Python_coding_dojang/Unit12. 딕셔너리 사용하기.py" />
-        <option value="$PROJECT_DIR$/Python_coding_dojang_test/Unit10.py" />
-        <option value="$PROJECT_DIR$/Python_coding_dojang_test/Unit08.py" />
-        <option value="$PROJECT_DIR$/Python_coding_dojang_test/Unit11.py" />
-        <option value="$PROJECT_DIR$/Python_coding_dojang_test/Unit12.py" />
-        <option value="$PROJECT_DIR$/Python_coding_dojang_test/Unit09.py" />
-        <option value="$PROJECT_DIR$/Python_coding_dojang_test/Unit14.py" />
-        <option value="$PROJECT_DIR$/Python_coding_dojang_test/Unit13.py" />
-        <option value="$PROJECT_DIR$/Python_coding_dojang_test/Unit15.py" />
-        <option value="$PROJECT_DIR$/Python_coding_dojang_test/Uni16.py" />
         <option value="$PROJECT_DIR$/Python_coding_dojang_test/Unit16.py" />
         <option value="$PROJECT_DIR$/Python_coding_dojang/Unit17_while.py" />
         <option value="$PROJECT_DIR$/Python_coding_dojang_test/Unit17.py" />
@@ -92,13 +85,24 @@
         <option value="$PROJECT_DIR$/Python_coding_dojang/Unit24_문자열 조작하기.py" />
         <option value="$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit22.py" />
         <option value="$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit24.py" />
-        <option value="$PROJECT_DIR$/Notebook/Unit23_2차원 리스트 다루기.py" />
         <option value="$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit23.py" />
+        <option value="$PROJECT_DIR$/Notebook/11.py" />
+        <option value="$PROJECT_DIR$/Python_coding_dojang/Unit25_딕셔너리 응용하기.py" />
+        <option value="$PROJECT_DIR$/Python_coding_dojang/Unit26_세트 사용하기.py" />
+        <option value="$PROJECT_DIR$/Notebook/Unit23_2차원 리스트 다루기.py" />
+        <option value="$PROJECT_DIR$/Python_coding_dojang/Unit27_파일 사용하기.py" />
+        <option value="$PROJECT_DIR$/Python_coding_dojang/Unit28_회문판별과 N-gram 만들기.py" />
+        <option value="$PROJECT_DIR$/Notebook/Unit26_세트 사용하기.py" />
+        <option value="$PROJECT_DIR$/Notebook/Unit27_파일 사용하기.py" />
+        <option value="$PROJECT_DIR$/Notebook/Unit25_딕셔너리 응용하기.py" />
+        <option value="$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit25.py" />
+        <option value="$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit26.py" />
+        <option value="$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit27.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="width" value="1634" />
+    <option name="width" value="1347" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -109,7 +113,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,18 +123,7 @@
             <path>
               <item name="Python-lecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-lecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Notebook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python-lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python-lecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Python_Exercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python-lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python-lecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Python_Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="Coding-Dojang-Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_coding_dojang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python-lecture" type="b2602c69:ProjectViewProjectNode" />
@@ -141,13 +133,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python-JupyterNotebook" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,7 +154,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Unit12">
+  <component name="RunManager" selected="Python.11">
+    <configuration name="11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python-lecture" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Notebook" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Notebook/11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unit11. 시퀀스 자료형 활용하기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-lecture" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,6 +241,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.11" />
         <item itemvalue="Python.Unit12" />
         <item itemvalue="Python.Unit11. 시퀀스 자료형 활용하기" />
       </list>
@@ -255,18 +270,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1634" height="1040" extended-state="0" />
+    <frame x="0" y="0" width="1347" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.22927135" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.3218391" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32928178" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49868074" weight="0.32929516" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50079155" side_tool="true" weight="0.36013216" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49816042" weight="0.3966851" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49816042" weight="0.3959505" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -318,71 +333,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit12.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit12. 딕셔너리 사용하기.py" />
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit13.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit14.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Uni16.py" />
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit16.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit17.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit21_Turtle graphics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit21.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit16_for.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit14_else.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2270">
-          <caret line="137" column="26" selection-start-line="137" selection-start-column="26" selection-end-line="137" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit15_elif.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -411,35 +361,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit15.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit19.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit18.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit15.py" />
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit19.py" />
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit18.py" />
     <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit21_list_tuple 응용.py" />
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit20.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit20.py" />
     <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit19_nested for loop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -504,13 +430,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/python_example_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="108" column="34" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/python_example_01.py" />
     <entry file="file://$PROJECT_DIR$/Python_Exercises/Example/e01_조건문/p02_alarm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -581,20 +501,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Exercises/Example/python_example_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="225" column="25" selection-start-line="225" selection-start-column="25" selection-end-line="225" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notebook/Unot23_2차원 리스트 다루기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="72" column="14" lean-forward="true" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Exercises/Example/python_example_01.py" />
+    <entry file="file://$PROJECT_DIR$/Notebook/Unot23_2차원 리스트 다루기.py" />
     <entry file="file://$PROJECT_DIR$/Notebook/Unit24_문자열 조작하기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-154">
@@ -644,10 +552,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit27_파일 사용하기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="179" column="40" selection-start-line="179" selection-start-column="40" selection-end-line="179" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notebook/11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notebook/Unit25_딕셔너리 응용하기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="147" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notebook/Unit26_세트 사용하기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notebook/Unit27_파일 사용하기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit26_세트 사용하기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="237" lean-forward="true" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Notebook/Unit23_2차원 리스트 다루기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="70" column="24" lean-forward="true" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+        <state relative-caret-position="286">
+          <caret line="99" column="36" lean-forward="true" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit25_딕셔너리 응용하기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="207" column="11" lean-forward="true" selection-start-line="207" selection-start-column="11" selection-end-line="207" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit27.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit26.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit25.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit28_회문판별과 N-gram 만들기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

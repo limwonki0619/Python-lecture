@@ -95,4 +95,8 @@ b = [[[0] * 3 for i in range(4)] for k in range(2)]  # 높이 --> 세로 --> 가
 # input을 호출한 뒤 append로 각 줄을 추가하면 됩니다
 # (list 안에 문자열을 넣으면 문자열이 문자 리스트로 변환됩니다).
 
+import random
 
+col, row = map(int, input().split())
+
+field = [[random.choice(['.','.','.', '*'])] * col for i in  range(row)]
