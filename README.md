@@ -70,5 +70,6 @@
  > - [1~3차원 리스트, 튜플, 문자열 응용하기 핵심정리](https://dojang.io/mod/page/view.php?id=2305)
 ### **2019.07.19**
  > - [딕셔너리 응용하기, 세트 사용하기 핵심정리](https://dojang.io/mod/page/view.php?id=2323)
- > - [파일 읽고 쓰고 맛보기](https://dojang.io/mod/page/view.php?id=2325)  
+ > - [파일 다루기](https://dojang.io/mod/page/view.php?id=2325)  
  > - [파일 다루기 참고자료](https://godoftyping.wordpress.com/2017/07/01/python-%ED%8C%8C%EC%9D%BC-%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC-%EC%A1%B0%EC%9E%91/)  
+ > - [회문 판별과 N-gram 만들기 핵심정리](https://dojang.io/mod/page/view.php?id=2335)
