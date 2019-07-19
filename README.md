@@ -65,3 +65,8 @@
 ### **2019.07.17**
  > - [if, else, elif 핵심정리](https://dojang.io/mod/page/view.php?id=2239)
  > - [for, while, break, continue 핵심정리](https://dojang.io/mod/page/view.php?id=2279)
+ > - [for문을 이용한 별 찍기, FizzBuzz 문제](https://dojang.io/mod/page/view.php?id=2259)
+### **2019.07.18**
+ > - [1~3차원 리스트, 튜플, 문자열 응용하기 핵심정리](https://dojang.io/mod/page/view.php?id=2305)
+### **2019.07.19**
+ > - [딕셔너리 응용하기, 세트 사용하기 핵심정리](https://dojang.io/mod/page/view.php?id=2323)
