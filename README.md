@@ -73,3 +73,6 @@
  > - [파일 다루기](https://dojang.io/mod/page/view.php?id=2325)  
  > - [파일 다루기 참고자료](https://godoftyping.wordpress.com/2017/07/01/python-%ED%8C%8C%EC%9D%BC-%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC-%EC%A1%B0%EC%9E%91/)  
  > - [회문 판별과 N-gram 만들기 핵심정리](https://dojang.io/mod/page/view.php?id=2335)
+### **2019.07.20**
+ > - [함수 다루기 핵심정리](https://dojang.io/mod/page/view.php?id=2357)
+ > - 코딩도장 예제, 파이썬 300제 문제 풀기 
