@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py" line="94" mnemonic="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2d266541-4bb9-476d-8120-a7bfea0cdda2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Notebook/Unit28_회문판별과 N-gram 만들기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit28.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_coding_dojang/Unit29_함수 사용하기.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_coding_dojang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Python_coding_dojang/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,19 +18,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit28.py">
+        <entry file="file://$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="-286">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py">
+        <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit29_함수 사용하기.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="1025">
+              <caret line="120" column="19" lean-forward="true" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -49,7 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python_coding_dojang_test/Unit17.py" />
         <option value="$PROJECT_DIR$/Python_coding_dojang/Unit18_break.py" />
         <option value="$PROJECT_DIR$/Python_coding_dojang_test/Unit18.py" />
         <option value="$PROJECT_DIR$/Python_coding_dojang_test/Unit19.py" />
@@ -99,12 +99,13 @@
         <option value="$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit26.py" />
         <option value="$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit27.py" />
         <option value="$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit28.py" />
+        <option value="$PROJECT_DIR$/Python_coding_dojang/Unit29_함수 사용하기.py" />
         <option value="$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="width" value="1463" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1313" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -122,24 +123,6 @@
             <path>
               <item name="Python-lecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-lecture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python-lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python-lecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Python_Exercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python-lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python-lecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Python_Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python-lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python-lecture" type="462c0819:PsiDirectoryNode" />
-              <item name="Python_Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-              <item name="e01_조건문" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python-lecture" type="b2602c69:ProjectViewProjectNode" />
@@ -285,11 +268,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1170" height="830" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.29515418" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.17370644" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32928178" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49868074" weight="0.32929516" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50079155" side_tool="true" weight="0.36013216" />
@@ -300,7 +283,7 @@
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32845894" />
-      <window_info active="true" anchor="bottom" x="20" y="284" width="1168" height="471" id="Python Console" order="10" sideWeight="0.5013193" visible="true" weight="0.3931624" />
+      <window_info anchor="bottom" x="20" y="284" width="1168" height="471" id="Python Console" order="10" sideWeight="0.5013193" visible="true" weight="0.48618785" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -347,13 +330,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit18_break.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit15.py" />
     <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit19.py" />
     <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit18.py" />
@@ -632,15 +608,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit28.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="-286">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit29_함수 사용하기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="120" column="19" lean-forward="true" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
         </state>
       </provider>
     </entry>
