@@ -3,8 +3,10 @@
 교재 : [파이썬 코딩 도장](https://dojang.io/course/view.php?id=7)  
 소스코드 : [파이썬코딩도장 소스코드](https://github.com/namjaeyoon/python.dojang)  
 저자 : 남재윤 (도서출판 길벗)  
-파이썬 참고서 : [파이썬 - 기본을 갈고 닦자!](https://wikidocs.net/book/search/result/1553)   
-파이썬 참고서 : [여러가지 파이썬 내장 함수 - 점프투 파이썬](https://wikidocs.net/32)  
+<br>
+
+파이썬 참고서 1 : [파이썬 - 기본을 갈고 닦자!](https://wikidocs.net/book/search/result/1553)   
+파이썬 참고서 2 : [여러가지 파이썬 내장 함수 - 점프투 파이썬](https://wikidocs.net/32)  
 <br>
 
 ## 학습에 도움이 되는 사이트 및 유튜브 채널
@@ -76,5 +78,9 @@
  > - [파일 다루기 참고자료](https://godoftyping.wordpress.com/2017/07/01/python-%ED%8C%8C%EC%9D%BC-%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC-%EC%A1%B0%EC%9E%91/)  
  > - [회문 판별과 N-gram 만들기 핵심정리](https://dojang.io/mod/page/view.php?id=2335)
 ### **2019.07.22**
- > - [함수 다루기 핵심정리](https://dojang.io/mod/page/view.php?id=2357)
+ > - 함수 다루기 기초
  > - 코딩도장 예제, 파이썬 300제 문제 풀기 
+### **2019.07.23**
+ > - [함수 사용하기 핵심정리](https://dojang.io/mod/page/view.php?id=2357)
+ > - [람다, 클로저 사용하기 핵심정리](https://dojang.io/mod/page/view.php?id=2370)
+ > - 클래스 입문  
