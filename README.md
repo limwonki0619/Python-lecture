@@ -82,3 +82,7 @@
  > - [함수 사용하기 핵심정리](https://dojang.io/mod/page/view.php?id=2357)
  > - [람다, 클로저 사용하기 핵심정리](https://dojang.io/mod/page/view.php?id=2370)
  > - 클래스 입문  
+### **2019.07.24**
+ > - [클래스 속성과 정책, 클래스 메서드 사용하기](https://dojang.io/mod/page/view.php?id=2378)  
+ > - [클래스 상속 사용하기](https://dojang.io/mod/page/view.php?id=2384)  
+ > - 연습문제 다시한번 풀어보기  
