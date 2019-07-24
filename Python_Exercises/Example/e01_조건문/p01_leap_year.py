@@ -22,6 +22,14 @@ for year in years:
     else:
         print(year, '평년')
 
+for year in years:
+    if year % 400 == 0:
+        print(year, '윤년')
+    elif year % 4 == 0 and year % 100 != 0:
+        print(year, '운년')
+    else:
+        print(year, '평년')        
+        
 # 1900년도 일때,
 print(1900 % 4 == 0)    # T 4의 배수다.
 print(1900 % 100 != 0)  # F 100의 배수다. -> 평년
