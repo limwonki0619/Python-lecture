@@ -53,3 +53,17 @@ def ari_seq(n, d):
 
 ari_seq(5, 3)
 
+
+# + 재귀호출로 등비수열 구하기
+
+def geo_seq(n, g):
+    if n == 1:
+        return 1
+    return geo_seq(n-1, g) * g
+
+geo_seq(6, 2)
+
+# 1 2 4 8 16 32
+
+# an = ar^(n-1)
+
