@@ -9,7 +9,7 @@
 # 람다 표현식에서 파일명을 처리할 때는 문자열 포매팅과 문자열 메서드를 활용하세요.
 
 files = input().split()
-
+1.jpg 10.png 11.png 2.jpg 3.png
 # 답안 1
 list(map(lambda x: '{0:0>7}'.format(x) if '.png' in x or '.jpg' in x else '{0:0>8}'.format(x), files))
 # 매개변수 x 안에 '.png' 또는 '.jpg'가 있으면 7자리로 포메팅, 아니면 8자리로 포메팅, 빈칸은 0으로 채우고 오른쪽 정렬
