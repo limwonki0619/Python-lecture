@@ -16,7 +16,7 @@ def alarm():
         print('알람 예정 시간은', hour,'시', minute,'분 입니다.')
     else:
         hour -= 1
-        minute -= 45
+        minute += 15
         print('알람 예정 시간은', hour,'시', abs(minute),'분 입니다.')
 
 alarm()
