@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3c3629a-4a30-49fd-9423-5a60841b44af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Test/Unit32.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Unit32.py" afterDir="false" />
-    </list>
+    <list default="true" id="e3c3629a-4a30-49fd-9423-5a60841b44af" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/Unit32.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            <state relative-caret-position="192">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -45,8 +43,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="100" />
-    <option name="y" value="413" />
+    <option name="x" value="194" />
+    <option name="y" value="22" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -100,7 +98,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="326" y="76" width="1750" height="980" extended-state="0" />
+    <frame x="194" y="22" width="1750" height="980" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24941452" />
@@ -171,8 +169,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/Unit32.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="192">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
