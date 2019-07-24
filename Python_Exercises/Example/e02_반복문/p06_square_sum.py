@@ -1,32 +1,20 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# 모범답안 -------------------------------------------------
 # 1부터 N까지 자연수에 대해 "합의 제곱"과 "제곱의 합"의 차이
-n = int(input('자연수 입력> '))
 
-sumOfSquare = 0
-sum = 0
-for i in range(1, n+1):
-    sum += i
-    sumOfSquare += i ** 2
-squareOfSum = sum ** 2
-print('합의 제곱 =', squareOfSum)
-print('제곱의 합 =', sumOfSquare)
-print('차이 =', squareOfSum - sumOfSquare)
+def Square_sum(n):
+
+    square_sum = 0
+    sum = 0
+
+    for i in range(1, n+1):
+        sum += i             # 합
+        square_sum += i ** 2 # 제곱의 함
+
+    sum_square = sum ** 2    # 합의 제곱
+    dif = sum_square - square_sum
+
+    print('합의 제곱 = {0}\n'
+          '제곱의 합 = {1}\n'
+          '합의 제곱 - 제곱의 합 = {2}'.format(sum_square, square_sum, dif))
+
+Square_sum(5)
+

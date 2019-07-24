@@ -1,4 +1,6 @@
-# 1.2  상근이는 매일 아침 알람을 듣고 일어난다. 알람을 듣고 바로 일어나면 다행이겠지만, -----------------------------
+# 1.2
+
+# 상근이는 매일 아침 알람을 듣고 일어난다. 알람을 듣고 바로 일어나면 다행이겠지만, -----------------------------
 # 항상 조금만 더 자려는 마음 때문에 매일 학교를 지각하고 있다.
 # 상근이는 모든 방법을 동원해보았지만, 조금만 더 자려는 마음은 그 어떤 것도 없앨 수가 없었다.
 # 이런 상근이를 불쌍하게 보던, 창영이는 자신이 사용하는 방법을 추천해 주었다.
@@ -13,23 +15,23 @@ def alarm():
     hour, minute = map(int, input('알람시간을 입력해 주세요.').split())
     if 45 <= minute < 60:
         minute -= 45
-        print('알람 예정 시간은', hour,'시', minute,'분 입니다.')
+        print('알람 예정 시각은 {0}시 {1}분 입니다.'.format(hour, minute))
     else:
         hour -= 1
         minute += 15
-        print('알람 예정 시간은', hour,'시', abs(minute),'분 입니다.')
+        print('알람 예정 시각은 {0}시 {1}분 입니다.'.format(hour, minute))
 
 alarm()
 
 # 모범답안 -------------------------------------------------------------
 
 # 45분 일찍 알람 맞추기
-hour, min = map(int, input('알람 시각> ').split())
-
-if min >= 45:
-    min -= 45
-else:
-    hour -= 1
-    min += 15          # min = min + 60 - 45
-
-print('New alarm time =', hour, min)
+# hour, min = map(int, input('알람 시각> ').split())
+#
+# if min >= 45:
+#     min -= 45
+# else:
+#     hour -= 1
+#     min += 15          # min = min + 60 - 45
+#
+# print('New alarm time =', hour, min)

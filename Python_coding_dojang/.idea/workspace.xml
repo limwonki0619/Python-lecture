@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3c3629a-4a30-49fd-9423-5a60841b44af" name="Default Changelist" comment="" />
+    <list default="true" id="e3c3629a-4a30-49fd-9423-5a60841b44af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Notebook/Unit08_불과 비교, 논리연산자 사용하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/Unit35_클래스 속성과 정적, 클래스 메서드 사용하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/Unit36_클래스 상속 사용하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notebook/Unit22_리스트와 튜플 응용하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Notebook/Unit22_리스트와 튜플 응용하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notebook/Unit24_문자열 조작하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Notebook/Unit24_문자열 조작하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Exercises/Example/e01_조건문/p01_leap_year.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Exercises/Example/e01_조건문/p01_leap_year.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Exercises/Example/e01_조건문/p02_alarm.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Exercises/Example/e01_조건문/p02_alarm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Exercises/Example/e01_조건문/p03_2nd_big.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Exercises/Example/e01_조건문/p03_2nd_big.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Exercises/Example/e01_조건문/p04_pythagoras.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Exercises/Example/e01_조건문/p04_pythagoras.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Exercises/Example/e02_반복문/p01_2_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Exercises/Example/e02_반복문/p01_2_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Exercises/Example/e02_반복문/p03_digital_clock.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Exercises/Example/e02_반복문/p03_digital_clock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Exercises/Example/e02_반복문/p04_count_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Exercises/Example/e02_반복문/p04_count_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Exercises/Example/e02_반복문/p05_perfect_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Exercises/Example/e02_반복문/p05_perfect_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Exercises/Example/e02_반복문/p06_square_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Exercises/Example/e02_반복문/p06_square_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/Unit34_클래스 사용하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture/Unit34_클래스 사용하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Unit23.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Unit23.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,20 +26,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Unit28_회문판별과 N-gram 만들기.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Test/Unit23.py" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="110" />
@@ -36,7 +50,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -48,9 +61,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -79,9 +94,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="88" y="25" width="1400" height="784" extended-state="0" />
+    <frame x="110" y="31" width="1750" height="980" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981685" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24941452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -101,10 +116,11 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Unit28_회문판별과 N-gram 만들기.py">
+    <entry file="file://$PROJECT_DIR$/Unit28_회문판별과 N-gram 만들기.py" />
+    <entry file="file://$PROJECT_DIR$/Test/Unit23.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>

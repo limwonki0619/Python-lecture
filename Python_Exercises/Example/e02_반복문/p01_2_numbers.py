@@ -9,9 +9,15 @@
 # 출력: 각 테스트 케이스마다 "Case #x: A + B = C" 형식으로 출력한다.
 # x는 테스트 케이스 번호이고 1부터 시작하며, C는 A+B이다.
 
+def test_case(A, B, T):
+    if A < 0 or B > 10:
+        print('잘못된 입력입니다.')
+    else:
+        C = A + B
+        for t in range(1, T+1):
+            print("Case #{0}: {1} + {2} = {3}".format(t, A, B, C))
 
-
-
+test_case(2, 3, 5)
 
 
 

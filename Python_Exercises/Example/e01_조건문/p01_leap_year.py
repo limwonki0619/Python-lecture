@@ -16,12 +16,16 @@
 
 years = list(range(1900, 2013, 1))
 
-for year in years:
-    if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
-        print(year, '윤년')
-    else:
-        print(year, '평년')
+# try 1
+# for year in years:
+#     if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+#         print(year, '윤년')
+#     else:
+#         print(year, '평년')
 
+
+
+# try 2
 for year in years:
     if year % 400 == 0:
         print(year, '윤년')
@@ -31,9 +35,9 @@ for year in years:
         print(year, '평년')        
         
 # 1900년도 일때,
-print(1900 % 4 == 0)    # T 4의 배수다.
-print(1900 % 100 != 0)  # F 100의 배수다. -> 평년
-print(1900 % 400 == 0)  # F 400의 배수가 아니다. -> 평년
+# print(1900 % 4 == 0)    # T 4의 배수다.
+# print(1900 % 100 != 0)  # F 100의 배수다. -> 평년
+# print(1900 % 400 == 0)  # F 400의 배수가 아니다. -> 평년
 
 
 
@@ -42,14 +46,14 @@ print(1900 % 400 == 0)  # F 400의 배수가 아니다. -> 평년
 # 연도를 입력으로 받아 윤년인지 아닌지를 출력하는 프로그램을 작성하시오.
 # 윤년은 연도가 4의 배수이면서, 100의 배수가 아닐 때 또는 400의 배수일 때이다.
 
-year = int(input('연도 입력> '))
-
-if year % 4 == 0:
-    if year % 400 == 0:
-        print(year, '년은 윤년입니다.')
-    elif year % 100 == 0:
-        print(year, '년은 윤년이 아닙니다.')
-    else:
-        print(year, '년은 윤년입니다.')
-else:
-    print(year, '년은 윤년이 아닙니다.')
+# year = int(input('연도 입력> '))
+#
+# if year % 4 == 0:
+#     if year % 400 == 0:
+#         print(year, '년은 윤년입니다.')
+#     elif year % 100 == 0:
+#         print(year, '년은 윤년이 아닙니다.')
+#     else:
+#         print(year, '년은 윤년입니다.')
+# else:
+#     print(year, '년은 윤년이 아닙니다.')
