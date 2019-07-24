@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3c3629a-4a30-49fd-9423-5a60841b44af" name="Default Changelist" comment="" />
+    <list default="true" id="e3c3629a-4a30-49fd-9423-5a60841b44af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Python_Exercises/Example/e01_조건문/p04_pythagoras.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Exercises/Example/e01_조건문/p04_pythagoras.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,20 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Python-algorithm-training/파이썬 300제/04_반복문/121-150.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="215" selection-start-line="215" selection-end-line="217" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test/Unit32.py">
+        <entry file="file://$PROJECT_DIR$/../Python_Exercises/Example/e01_조건문/p04_pythagoras.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="198">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -39,12 +33,13 @@
         <option value="$PROJECT_DIR$/Test/Unit23.py" />
         <option value="$PROJECT_DIR$/Lecture/Unit31_함수에서 재귀호출 사용하기.py" />
         <option value="$PROJECT_DIR$/Test/Unit32.py" />
+        <option value="$PROJECT_DIR$/../Python_Exercises/Example/e01_조건문/p04_pythagoras.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="194" />
-    <option name="y" value="22" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="154" />
+    <option name="y" value="31" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -54,6 +49,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -65,7 +61,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -98,10 +93,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="194" y="22" width="1750" height="980" extended-state="0" />
+    <frame x="154" y="31" width="1750" height="980" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24941452" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24941452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -114,7 +109,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3293124" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3293124" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -162,15 +157,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Python-algorithm-training/파이썬 300제/04_반복문/121-150.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="4730">
           <caret line="215" selection-start-line="215" selection-end-line="217" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/Unit32.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="82">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Unit33.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python_Exercises/Example/e01_조건문/p04_pythagoras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
