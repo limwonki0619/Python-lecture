@@ -72,3 +72,14 @@ num_counting(1, 1000)
 #     counts[i % 10] += 1
 #
 # print(counts)
+
+
+# 모범답안 2 ---------------------------------------------------------------
+
+# count={ x:0 for x in range(0,10) }
+#
+# for x in range(1,1001):
+#     for i in str(x):
+#         count[int(i)]+=1
+# 
+# print(count)
