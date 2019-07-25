@@ -86,3 +86,7 @@
  > - [클래스 속성과 정책, 클래스 메서드 사용하기](https://dojang.io/mod/page/view.php?id=2378)  
  > - [클래스 상속 사용하기](https://dojang.io/mod/page/view.php?id=2384)  
  > - 연습문제 다시한번 풀어보기  
+### **2019.07.25**
+ > - 파이썬 시험
+ > - [예외처리 사용하기](https://dojang.io/mod/page/view.php?id=2398)
+ > - 이터레이터, 제너레이터 맛보기 
