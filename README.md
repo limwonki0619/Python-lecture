@@ -89,4 +89,5 @@
 ### **2019.07.25**
  > - 파이썬 시험
  > - [예외처리 사용하기](https://dojang.io/mod/page/view.php?id=2398)
- > - 이터레이터, 제너레이터 맛보기 
+ > - [이터레이터 맛보기](https://dojang.io/mod/page/view.php?id=2405) 
+ > - 제너레이터 맛보기 
