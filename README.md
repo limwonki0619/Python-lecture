@@ -91,3 +91,8 @@
  > - [예외처리 사용하기](https://dojang.io/mod/page/view.php?id=2398)
  > - [이터레이터 맛보기](https://dojang.io/mod/page/view.php?id=2405) 
  > - 제너레이터 맛보기 
+### **2019.07.26**
+ > - [데코레이터 사용하기](https://dojang.io/mod/page/view.php?id=2427)  
+ > - [정규표현식 사용하기](https://dojang.io/mod/page/view.php?id=2435)  
+ > - [정규표현식 정리](https://whatisthenext.tistory.com/116)  
+ 
