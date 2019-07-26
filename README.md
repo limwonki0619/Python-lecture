@@ -95,4 +95,5 @@
  > - [데코레이터 사용하기](https://dojang.io/mod/page/view.php?id=2427)  
  > - [정규표현식 사용하기](https://dojang.io/mod/page/view.php?id=2435)  
  > - [정규표현식 정리](https://whatisthenext.tistory.com/116)  
+ > - [모듈과 패키지 사용하기 및 만들기 핵심정리](https://dojang.io/mod/page/view.php?id=2454)  
  
