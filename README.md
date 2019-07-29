@@ -10,7 +10,8 @@
  > + [K-Mooc](http://www.kmooc.kr/)은 한국형 온라인 공개 강좌입니다. 다양한 대학의 강의를 들을 수 있습니다.  
  > + [허민석님 유투브](https://www.youtube.com/user/TheEasyoung/videos)는 다양한 파이썬 강의와 머신러닝 딥러닝 등의 정보를 제공해 줍니다.
  > + [파이썬 - 기본을 갈고 닦자](https://wikidocs.net/book/search/result/1553)에서 파이썬 기초 문법을 공부할 수 있습니다.
- > + [다양한 파이썬 내장함수 - 점프 투 파이썬](https://wikidocs.net/32)은 파이썬 기초 문법뿐만아니라 다양한 내외장 함수에 대한 설명을 제공해 줍니다.  
+ > + [다양한 파이썬 내장함수 - 점프 투 파이썬](https://wikidocs.net/32)은 파이썬 기초 문법뿐만아니라 다양한 내외장 함수에 대한 설명을 제공해 줍니다.
+ > + [데이터 사이언스 스쿨](https://datascienceschool.net/notebook/PYTHON/)  
  <br>
  
 ## Anaconda 설치 방법
