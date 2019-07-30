@@ -99,4 +99,11 @@
  > - [모듈과 패키지 사용하기 및 만들기 핵심정리](https://dojang.io/mod/page/view.php?id=2454)  
 ### **2019.07.29**
  > - Numpy 기초 다루기  
+### **2019.07.30**
+ > - [Pandas 패키지 소개](https://datascienceschool.net/view-notebook/ee0a5679dd574b94b55193690992f850/)
+ > - [Pandas 데이터 입ㆍ출력](https://datascienceschool.net/view-notebook/c5ccddd6716042ee8be3e5436081778b/)
+ > - [Pandas 데이터프레임 : 고급 인덱싱](https://datascienceschool.net/view-notebook/704731b41f794b8ea00768f5b0904512/)
+ > - [Pandas 데이터프레임 : 데이터 조작](https://datascienceschool.net/view-notebook/aa62265f02fc429aa636ef343c3b1fda/)
+ > - [Pandas 데이터프레임 : 인덱스 조작](https://datascienceschool.net/view-notebook/a49bde24674a46699639c1fa9bb7e213/)  
+ 
  
