@@ -1,3 +1,4 @@
 ## Pandas 
 
-+ [µ¥ÀÌÅÍ »çÀÌ¾ğ½º ½ºÄğ : Pandas](https://datascienceschool.net/view-notebook/ee0a5679dd574b94b55193690992f850/)
++ [ë°ì´í„° ì‚¬ì´ì–¸ìŠ¤ ìŠ¤ì¿¨: Pandas](https://datascienceschool.net/view-notebook/ee0a5679dd574b94b55193690992f850/)
++ [íŒë‹¤ìŠ¤ 10ë¶„ ì™„ì„±](https://dataitgirls2.github.io/10minutes2pandas/)
