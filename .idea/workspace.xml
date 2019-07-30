@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py" line="94" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py" line="17" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d266541-4bb9-476d-8120-a7bfea0cdda2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python_coding_dojang/Unit29_함수 사용하기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-Data-Science/Pandas/.ipynb_checkpoints/01_Pandas 패키지 소개-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python-Data-Science/Pandas/.ipynb_checkpoints/01_Pandas 패키지 소개-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-Data-Science/Pandas/.ipynb_checkpoints/03_데이터프레임 고급 인덱싱-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python-Data-Science/Pandas/.ipynb_checkpoints/03_데이터프레임 고급 인덱싱-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-Data-Science/Pandas/01_Pandas 패키지 소개.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python-Data-Science/Pandas/01_Pandas 패키지 소개.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-Data-Science/Pandas/03_데이터프레임 고급 인덱싱.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python-Data-Science/Pandas/03_데이터프레임 고급 인덱싱.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,19 +21,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-286">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="277">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit29_함수 사용하기.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="120" column="19" lean-forward="true" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Python-Data-Science/Pandas/04.01 Pandas 패키지의 소개.ipynb">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -330,33 +327,14 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit15.py" />
     <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit19.py" />
     <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit18.py" />
     <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit21_list_tuple 응용.py" />
     <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit20.py" />
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit19_nested for loop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="117" column="27" lean-forward="true" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit19_nested for loop.py" />
     <entry file="file://$PROJECT_DIR$/Notebook/Unit22_리스트 조작하기.py" />
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit13_if.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit23_2차원 리스트 사용하기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit13_if.py" />
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit23_2차원 리스트 사용하기.py" />
     <entry file="file://$PROJECT_DIR$/Notebook/Unit13_if.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -479,41 +457,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit24_문자열 조작하기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="269" column="29" lean-forward="true" selection-start-line="269" selection-start-column="29" selection-end-line="269" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit22.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit23.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit24.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit22_list_tuple_응용하기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="277" column="22" lean-forward="true" selection-start-line="277" selection-start-column="22" selection-end-line="277" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit24_문자열 조작하기.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit22.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit23.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit24.py" />
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit22_list_tuple_응용하기.py" />
     <entry file="file://$PROJECT_DIR$/Notebook/Unit22_리스트와 튜플 응용하기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -521,13 +469,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit27_파일 사용하기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="179" column="40" selection-start-line="179" selection-start-column="40" selection-end-line="179" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit27_파일 사용하기.py" />
     <entry file="file://$PROJECT_DIR$/Notebook/11.py" />
     <entry file="file://$PROJECT_DIR$/Notebook/Unit25_딕셔너리 응용하기.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -550,13 +492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit26_세트 사용하기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="237" lean-forward="true" selection-start-line="237" selection-end-line="237" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit26_세트 사용하기.py" />
     <entry file="file://$PROJECT_DIR$/Notebook/Unit23_2차원 리스트 다루기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -564,41 +500,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit25_딕셔너리 응용하기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="207" column="11" lean-forward="true" selection-start-line="207" selection-start-column="11" selection-end-line="207" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit27.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit26.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit25.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit28_회문판별과 N-gram 만들기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit25_딕셔너리 응용하기.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit27.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit26.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit25.py" />
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit28_회문판별과 N-gram 만들기.py" />
     <entry file="file://$PROJECT_DIR$/Notebook/Unit28_회문판별과 N-gram 만들기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -606,26 +512,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit28.py">
+    <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit28.py" />
+    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit29_함수 사용하기.py" />
+    <entry file="file://$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="277">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit29_함수 사용하기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="120" column="19" lean-forward="true" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Python-Data-Science/Pandas/04.01 Pandas 패키지의 소개.ipynb">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
