@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d266541-4bb9-476d-8120-a7bfea0cdda2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Python-Data-Science/Pandas/.ipynb_checkpoints/01_Pandas 패키지 소개-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python-Data-Science/Pandas/.ipynb_checkpoints/01_Pandas 패키지 소개-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-Data-Science/Pandas/.ipynb_checkpoints/03_데이터프레임 고급 인덱싱-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python-Data-Science/Pandas/.ipynb_checkpoints/03_데이터프레임 고급 인덱싱-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-Data-Science/Pandas/01_Pandas 패키지 소개.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python-Data-Science/Pandas/01_Pandas 패키지 소개.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-Data-Science/Pandas/03_데이터프레임 고급 인덱싱.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Python-Data-Science/Pandas/03_데이터프레임 고급 인덱싱.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-Data-Science/Pandas/임원기.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,14 +18,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
+            <state relative-caret-position="374">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python-Data-Science/Pandas/04.01 Pandas 패키지의 소개.ipynb">
+        <entry file="file://$PROJECT_DIR$/Python-Data-Science/Pandas/02_Pandas 데이터 입출력.ipynb">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -327,7 +324,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit19.py" />
     <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit18.py" />
     <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit21_list_tuple 응용.py" />
     <entry file="file://$PROJECT_DIR$/Python_coding_dojang_test/Unit20.py" />
@@ -514,14 +510,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit28.py" />
     <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit29_함수 사용하기.py" />
+    <entry file="file://$PROJECT_DIR$/Python-Data-Science/Pandas/04.01 Pandas 패키지의 소개.ipynb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
+        <state relative-caret-position="374">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python-Data-Science/Pandas/04.01 Pandas 패키지의 소개.ipynb">
+    <entry file="file://$PROJECT_DIR$/Python-Data-Science/Pandas/02_Pandas 데이터 입출력.ipynb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
