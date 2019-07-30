@@ -160,13 +160,13 @@ unfunc라고 불리는 유니버셜 함수는 ndarray안에 있는 데이터 원
 | 함수  | 설명  |
 |:----:|:----:|
 |add|첫번재 배열의 원소 + 두번째 배열의 원소|
-|subtract|첫번쨰 배열의 원소 - 두번째 배열의 원소|
+|subtract|첫번째 배열의 원소 - 두번째 배열의 원소|
 |multiply|첫번째 배열의 원소 * 두번째 배열의 원소|
-|divide|첫번쨰 배열의 원소 / 두번쨰 배열의 원소|
+|divide|첫번째 배열의 원소 / 두번째 배열의 원소|
 |power|첫번째 배열의 원소 ** 두번째 배열의 원소|
 |maximum, fmax|두 배열의 원소들 중 큰 값을 반환, fmax는 NaN 무시|
 |minimum, fmin|두 배열의 원소들 중 작은값을 반환, fmin은 NaN무시|
-|mod|첫번쨰 배열의 원소 % 두번째 배열의 원소|
+|mod|첫번째 배열의 원소 % 두번째 배열의 원소|
 |greater, greater_equal, less, less_equal, equal, not_equal|두 원소간의 `>`, `>=`, `<`, `<=`, `==`, `!=` 비교 연산 결과를 불리언 배열로 반환|
 |logical_and, logical_or, logical_xor|각각 두 원소 간의 논리연산, `&`, `|`, `^` 결과를 반환|
 
