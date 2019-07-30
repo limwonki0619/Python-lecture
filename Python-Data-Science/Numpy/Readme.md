@@ -132,6 +132,8 @@ unfunc라고 불리는 유니버셜 함수는 ndarray안에 있는 데이터 원
 
 < NumPy Universal Function List >
 
+<br>
+
 1. 단일 배열에 사용하는 함수 리스트
 
 | 함수  | 설명  |
@@ -151,6 +153,8 @@ unfunc라고 불리는 유니버셜 함수는 ndarray안에 있는 데이터 원
 |cos, cosh, sin, sinh, tan, tanh|일반 삼각함수와 쌍곡삼각 함수|
 |logical_not|각 원소의 논리 부정(not)값 계산, -arr와 동일|
 
+<br>
+
 2. 서로 다른 배열 간에 사용하는 함수 리스트
 
 | 함수  | 설명  |
@@ -166,13 +170,18 @@ unfunc라고 불리는 유니버셜 함수는 ndarray안에 있는 데이터 원
 |greater, greater_equal, less, less_equal, equal, not_equal|두 원소간의 `>`, `>=`, `<`, `<=`, `==`, `!=` 비교 연산 결과를 불리언 배열로 반환|
 |logical_and, logical_or, logical_xor|각각 두 원소 간의 논리연산, `&`, `|`, `^` 결과를 반환|
 
+<br>
 
 # 3. 배열을 사용한 데이터 처리
 
+<br>
+	
 ## 3.1 조건절 표현
 
 - np.where(조건, 참일때 반환할 값, 거짓일 떄 반환할 값) 
 - `x if condition else y`를 벡터화 시킨 것.
+
+<br> 
 
 ## 3.2 통계 메서드
 
@@ -190,11 +199,14 @@ Numpy를 이용해서 기본적인 계산을 할 수 있다. Numpy에 내장 함
 |cumsum|각 원소의 누적 함|
 |cumprod|각 원소의 누적 곱|
 
+<br>
+
 ## 3.3 불리언 배열 메서드 
 
  - any : True값이 하나라도 있으면 True 반환
  - all : 모든 값이 True일 때 True 반환
 
+<br>
 
 ## 3.4 정렬 메서드
 내이썬 내장 리스트처럼 Numpy 배열도 sort 메서드로 정렬이 가능하다.
@@ -203,6 +215,8 @@ Numpy를 이용해서 기본적인 계산을 할 수 있다. Numpy에 내장 함
 
 - axis = 1 : 행 방향 (→)
 - axis = 0 : 열 방향 (↓)
+
+<br>
 
 ## 3.5 집함 함수
 
@@ -213,6 +227,7 @@ Numpy를 이용해서 기본적인 계산을 할 수 있다. Numpy에 내장 함
  - setdiff1d(x,y) : x와 y의 차집함을 반환
  - setxod1d(x,y) : 한 배열에는 포함하지만, 두 배열 모두에는 포함되지 않는 원소들의 집합인 대칭 차집합을 반환
 
+<br>
 
 # 4. 배열의 파일 입출력
 
