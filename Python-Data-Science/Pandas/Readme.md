@@ -73,3 +73,24 @@
 `df.loc[행, 열]`로 인덱싱이 이뤄진다.
 
 `열`을 인덱싱 하고자 할 경우 `:` 등을 행 인덱스 자리에 입력 한 후 원하는 열을 인덱싱 한다.
+
+
+# **데이터프레임 병합 정리**
+## **1. `merge`를 이용한 병합**
+
+`merge` 명령은 두 데이터 프레임의 공통 열 혹은 인덱스를 기준으로 두 개의 테이블을 합친다. 이 때 기준이 되는 열, 행의 데이터를 **키(key)**라고 한다.
+
+`pd.merge(df1, df2)` : 같은 이름의 공통 열이 있을 경우, 디폴트는 inner join 
+
+`pd.merge(df1, df2, how='outer` : outer join은 키 값이 한쪽에만 있어도 데이터를 보여준다.
+
+`left join`의 경우 첫번째 데이터프레임의 키 값을 모두 보여준다.
+
+`right join`의 경우 두번째 데이터프레임의 키 값을 모두 보여준다.
+
+```{python}
+import numpy as np
+import pandas as pd
+
+print('hello world')
+```
