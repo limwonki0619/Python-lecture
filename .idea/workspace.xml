@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py" line="17" mnemonic="3" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="2d266541-4bb9-476d-8120-a7bfea0cdda2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Python-Data-Science/Pandas/임원기.zip" beforeDir="false" />
@@ -111,21 +108,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Python-lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python-lecture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python-lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -510,9 +493,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python_Exercises/Coding-Dojang-Test/Unit28.py" />
     <entry file="file://$PROJECT_DIR$/Python_coding_dojang/Unit29_함수 사용하기.py" />
-    <entry file="file://$PROJECT_DIR$/Python-Data-Science/Pandas/04.01 Pandas 패키지의 소개.ipynb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Python-Data-Science/Pandas/04.01 Pandas 패키지의 소개.ipynb" />
     <entry file="file://$PROJECT_DIR$/Python_Exercises/Example/e03_문자열 및 파일/p01_palindrome.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
