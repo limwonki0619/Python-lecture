@@ -105,5 +105,8 @@
  > - [Pandas 데이터프레임 : 고급 인덱싱](https://datascienceschool.net/view-notebook/704731b41f794b8ea00768f5b0904512/)
  > - [Pandas 데이터프레임 : 데이터 조작](https://datascienceschool.net/view-notebook/aa62265f02fc429aa636ef343c3b1fda/)
  > - [Pandas 데이터프레임 : 인덱스 조작](https://datascienceschool.net/view-notebook/a49bde24674a46699639c1fa9bb7e213/)  
- 
- 
+### **2019.07.31**
+ > - [Pandas 데이터프레임 : 데이터 병합 및 연결](https://datascienceschool.net/view-notebook/7002e92653434bc88c8c026c3449d27b/)
+ > - [Pandas 데이터프레임 : 피벗테이블과 그룹분석](https://datascienceschool.net/view-notebook/76dcd63bba2c4959af15bec41b197e7c/)
+ > - [Pandas 데이터프레임 : 시꼐열 자료 다루기](https://datascienceschool.net/view-notebook/8959673a97214e8fafdb159f254185e9/)
+ > - SQLite3 맛보기

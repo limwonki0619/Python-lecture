@@ -56,6 +56,8 @@ with conn:
 		print(row)
 ```
 
+<br>
+
 ### 2.2 테이블 생성
 
 ```{.python}
@@ -70,6 +72,8 @@ cur.execute('CREATE TABLE IF NOT EXISTS Eagles \
      PRIMARY KEY(back_no));')
 ```
 
+<br>
+
 ### 2.3 테이블 추가 
 
 ```{.python
@@ -81,15 +85,21 @@ cur.execute("INSERT INTO Eagles VALUES \
 # INSERT INTO table_name (fiel1, file2, ...) VALUES ( data );
 ```
 
+<br>
+
 ### 2.4 테이블 삭제 방법 (삭제할 필요가 있을 때 사용)
 ```{.python}
 cur.execute(‘DROP TABLE Eagles’)
 ```
 
+<br>
+
 ### 2.5 테이블 변경사항 저장 
 ```{.python}
 conn.commit()
 ```
+
+<br>
 
 ### 2.6 파이썬으로 csv 파일을 읽은 후 데이터베이스에 추가 
 
@@ -116,94 +126,125 @@ for i in range(10):
 conn.commit() # 변경사항 저장 
 ```
 
-### 2.7 데이터베이스 종료
-
-```{.python}
-conn.close()
-```
-
 <br>
 
 ## **3. 데이터 조작 언어(Data Manipulation Language, DML)**
 
-1. 데이터 조회  
+### **1. 데이터 조회** 
+
 ```{.python}
+
 # 1.1 순회 조회
 
-cur = conn.cursor() 
-cur.execute('SELECT * FROM Eagles') 
-for row in cur: 
-	print(row)
-
+cur = conn.cursor()
+cur.execute('SELECT * FROM Eagles')
+for row in cur:
+    print(row)
+    
 # 1.2 단건 조회
-cur = conn.cursor() 
-cur.execute('SELECT * FROM Eagles') 
-row = cur.fetchone()
 
-# 1.3 단건 조회
+cur=conn.cursor()
+cur.execute('SELECT * FROM Eagles')
+row = cur.fetchone()
+print(row)
+
+# 1.3 다건 조회
+
 rows = cur.fetchmany(2)
+for row in rows:
+    print(row)
+
 
 # 1.4 모두 조회
-rows = cur.fetchall() 
-for row in rows: 
-	print(row)
+
+rows = cur.fetchall()
+for row in rows:
+    print(row)
 
 # 1.5 필요한 column만 조회
-cur = conn.cursor() 
-cur.execute(“SELECT name FROM Eagles WHERE back_no > 10”) 
-rows = cur.fetchall() 
-for row in rows: 
-	print(row)
+
+# 1.5.1
+cur = conn.cursor()
+cur.execute('SELECT name FROM Eagles WHERE back_no > 10')  # back_no가 10 초과인 야구선수의 이름 조회
+rows = cur.fetchall()
+
+for row in rows:
+    print(row)
+
+# 1.5.2
+cur = conn.cursor()
+cur.execute("SELECT * FROM Eagles WHERE position like '내야수'")  # 포지션이 내야수인 야구선수 조회 
+rows = cur.fetchall()
+
+for row in rows:
+    print(row)
+
 
 # 1.6 원하는 순서 및 개수
-cur.execute('SELECT * FROM Eagles ORDER BY name’) cur.execute('SELECT * FROM Eagles ORDER BY name DESC’)
 
-cur.execute('SELECT * FROM Eagles ORDER BY name DESC LIMIT 1’) 
-row = cur.fetchone() 
-print(row[1]) # ‘하주석’
+# 1.6.1
+cur.execute('SELECT * FROM Eagles ORDER BY height DESC')  # 키에 따른 내림차순 정렬 
+rows = cur.fetchall()
+
+for row in rows:
+    print(row)
+
+# 1.6.2
+cur.execute('SELECT * FROM Eagles ORDER BY height DESC LIMIT 5')  # 키에 따른 내림차순 정렬 top5 
+rows = cur.fetchall()
+
+for row in rows:
+    print(row)
 
 # 1.7 집계 함수
-cur.execute('SELECT count(*) FROM Eagles’) count = cur.fetchone()
 
-max(column), min(column), sum(column), avg(column)
-```  
+# 1.7.1 카운팅
+cur.execute('SELECT count(*) FROM Eagles')
+count = cur.fetchall()
+print(count)
 
-2. 데이터 검색 
 
-```{.python}
-# 2.1 기본 스트링 쿼리
-cur = conn.cursor() 
-cur.execute(“SELECT * FROM Eagles WHERE position=‘내야수’;”) 
-rows = cur.fetchall(); 
-for row in rows: 
-	print(row)
+# 1.7.2 그룹핑, 집계 함수 
 
-# 2.2 Placeholder
+cur = conn.cursor()
+cur.execute('SELECT position, count(*), avg(height) FROM Eagles GROUP BY position')  # 포지션별 수, 평균키
+rows = cur.fetchall()
+
+for row in rows:
+    print(row)
+
+# 1.8 Placeholder
 cur = con.cursor() 
 back_no = 50 
 cur.execute('SELECT * FROM Eagles WHERE back_no=?;‘, (back_no,)) 
 player = cur.fetchone() 
 print(player[0]) # 50
 
-# 2.3 Grouping
-sql = ‘SELECT position, count(*) FROM Eagles GROUP BY position’
 ```
+<br>
 
-3. 데이터 변경 
+### **2. 데이터 변경** 
+
+- UPDATE table SET field1 = value1, ... WHERE 조건;
+
 ```{.python}
-position = ‘외야수’ 
-back_no = 8 
-
-cur.execute(‘UPDATE Eagles SET position=? WHERE back_no=?;‘, (position, back_no)) 
-cur.execute('SELECT * FROM Eagles WHERE back_no=?‘, (back_no,)) 
-cur.fetchone() 
-
-data = ((1995,1), (1986,57)) 
-sql = ‘UPDATE Eagles SET position=? WHERE back_no=?‘ cur.executedmany(sql, data)
+cur = conn.cursor()
+cur.execute("UPDATE Eagles SET hands ='우투좌타', highschool='미국고', \
+            height = 190 WHERE back_no = 30;")
+conn.commit()
 ```
 
-4. 데이터 삭제
+### **3. 데이터 삭제**
+
+- DELETE FROM table WHERE 조건;
+
 ```{.python}
 cur = con.cursor() 
 cur.execute(‘DELETE FROM Eagles WHERE back_no=1);’)
+```
+
+### **4. 종료하기** 
+
+```{.python}
+conn.close()
 ```
