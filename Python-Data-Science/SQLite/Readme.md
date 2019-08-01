@@ -17,13 +17,13 @@
 	- [SQLite Expert](http://www.sqliteexpert.com/download.html)
 	- Personal version은 freeware 이므로 사용할 수 있음
 
-
+<br>
 
 ## **2. 파이썬과 함께 사용하기**
 
-### 1. 데이터베이스 접속 
+### 2.1 데이터베이스 접속 
 
-#### 1.1 기본적인 방법 
+#### 2.1.1 기본적인 방법 
 
 ```{.python}  
 import sqlite3 
@@ -42,7 +42,7 @@ conn.close()
 ```
 
 
-#### 1.2 with문 이용해 close 생략하는방법 
+#### 2.1.2 with문 이용해 close 생략하는방법 
 
 ```{.python}
 import sqlite3 
@@ -56,7 +56,7 @@ with conn:
 		print(row)
 ```
 
-### 2. 테이블 생성
+### 2.2 테이블 생성
 
 ```{.python}
 cur = conn.cursor()
@@ -70,7 +70,7 @@ cur.execute('CREATE TABLE IF NOT EXISTS Eagles \
      PRIMARY KEY(back_no));')
 ```
 
-### 3. 테이블 추가 
+### 2.3 테이블 추가 
 
 ```{.python
 cur = conn.cursor()
@@ -81,19 +81,19 @@ cur.execute("INSERT INTO Eagles VALUES \
 # INSERT INTO table_name (fiel1, file2, ...) VALUES ( data );
 ```
 
-### 4. 테이블 삭제 방법 (삭제할 필요가 있을 때 사용)
+### 2.4 테이블 삭제 방법 (삭제할 필요가 있을 때 사용)
 ```{.python}
 cur.execute(‘DROP TABLE Eagles’)
 ```
 
-### 5. 테이블 변경사항 저장 
+### 2.5 테이블 변경사항 저장 
 ```{.python}
 conn.commit()
 ```
 
-### 6. 파이썬으로 csv 파일을 읽은 후 데이터베이스에 추가 
+### 2.6 파이썬으로 csv 파일을 읽은 후 데이터베이스에 추가 
 
-#### 6.1 파이썬으로 csv 파일 읽기 
+#### 2.6.1 파이썬으로 csv 파일 읽기 
 
 ```{.python}
 import pandas as pd
@@ -102,7 +102,7 @@ players = pd.read_csv('./players.csv', encoding='EUC-KR')  # 인코딩, 경로 �
 players  # 데이터 타입이 모두 문자열 
 ```
 
-#### 6.2 읽은 파일을 데이터베이스에 저장 
+#### 2.6.2 읽은 파일을 데이터베이스에 저장 
 
 ```{.python}
 cur = conn.cursor()
@@ -116,7 +116,7 @@ for i in range(10):
 conn.commit() # 변경사항 저장 
 ```
 
-### 7. 데이터베이스 종료
+### 2.7 데이터베이스 종료
 
 ```{.python}
 conn.close()
