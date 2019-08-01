@@ -319,20 +319,14 @@ cur.execute(sql)
 
 rows = cur.fetchall()
 colName = ['등번호', '선수명', '포지션', '타율', '타점', '홈런']
-eagles_df = pd.DataFrame(columns = colName)  # 열 이름을 갖는 데이터프레임 생성 
 
-for row in rows:
-    eagles_df = eagles_df.append(pd.DataFrame([list(row)], 
-                                              columns = colName), # rows를 하나씩 데이터 프레임에 append 
-                                              ignore_index=True)
-    
-eagles_df  # rbind를 하나씩 하는 느낌
+eagles_df = pd.DataFrame(rows, columns = colName)  # 열 이름을 갖는 데이터프레임 생성 
+eagles_df
 ```
 
 <br>
 
 ### **종료하기** 
-
 ```{.python}
 conn.close()
 ```
