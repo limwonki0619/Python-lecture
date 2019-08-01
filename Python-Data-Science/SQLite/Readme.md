@@ -130,7 +130,7 @@ conn.commit() # 변경사항 저장
 
 ## **3. 데이터 조작 언어(Data Manipulation Language, DML)**
 
-1. 데이터 조회  
+### **1. 데이터 조회** 
 
 ```{.python}
 
@@ -223,7 +223,7 @@ print(player[0]) # 50
 ```
 <br>
 
-2. 데이터 변경 
+### **2. 데이터 변경** 
 
 - UPDATE table SET field1 = value1, ... WHERE 조건;
 
@@ -234,7 +234,7 @@ cur.execute("UPDATE Eagles SET hands ='우투좌타', highschool='미국고', \
 conn.commit()
 ```
 
-3. 데이터 삭제
+### **3. 데이터 삭제**
 
 - DELETE FROM table WHERE 조건;
 
@@ -243,7 +243,7 @@ cur = con.cursor()
 cur.execute(‘DELETE FROM Eagles WHERE back_no=1);’)
 ```
 
-4. 종료하기 
+### **4. 종료하기** 
 
 ```{.python}
 conn.close()
