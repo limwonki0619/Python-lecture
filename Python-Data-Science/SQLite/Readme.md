@@ -21,7 +21,7 @@
 
 ## **2. 파이썬과 함께 사용하기**
 
-1. 데이터베이스 접속 
+### 1. 데이터베이스 접속 
 ```{.python}  
 import sqlite3 
 conn = sqlite3.connect(':memory:') # 메모리 DB 접속(일회성) 
@@ -39,7 +39,7 @@ conn.close()
 ```
 
 
-2. with문 이용해 close 생략하는방법 
+### 2. with문 이용해 close 생략하는방법 
 
 ```{.python}
 import sqlite3 
@@ -53,7 +53,7 @@ with conn:
 		print(row)
 ```
 
-3. 테이블 생성
+### 3. 테이블 생성
 
 ```{.python}
 cur = conn.cursor()
@@ -67,7 +67,7 @@ cur.execute('CREATE TABLE IF NOT EXISTS Eagles \
      PRIMARY KEY(back_no));')
 ```
 
-4. 테이블 추가 
+### 4. 테이블 추가 
 
 ```{.python
 cur = conn.cursor()
@@ -78,19 +78,19 @@ cur.execute("INSERT INTO Eagles VALUES \
 # INSERT INTO table_name (fiel1, file2, ...) VALUES ( data );
 ```
 
-5. 테이블 삭제
+### 5. 테이블 삭제
 ```{.python}
 cur.execute(‘DROP TABLE Eagles’)
 ```
 
-6. 테이블 변경사항 저장 
+### 6. 테이블 변경사항 저장 
 ```{.python}
 conn.commit()
 ```
 
-7. 파이썬으로 csv 파일을 읽은 후 데이터베이스에 추가 
+### 7. 파이썬으로 csv 파일을 읽은 후 데이터베이스에 추가 
 
-7.1 파이썬으로 csv 파일 읽기 
+#### 7.1 파이썬으로 csv 파일 읽기 
 
 ```{.python}
 import pandas as pd
@@ -99,7 +99,7 @@ players = pd.read_csv('./players.csv', encoding='EUC-KR')  # 인코딩, 경로 �
 players  # 데이터 타입이 모두 문자열 
 ```
 
-7.2 읽은 파일을 데이터베이스에 저장 
+#### 7.2 읽은 파일을 데이터베이스에 저장 
 
 ```{.python}
 cur = conn.cursor()
@@ -113,7 +113,7 @@ for i in range(10):
 conn.commit() # 변경사항 저장 
 ```
 
-8. 데이터베이스 종료
+### 8. 데이터베이스 종료
 
 ```{.python}
 conn.close()
