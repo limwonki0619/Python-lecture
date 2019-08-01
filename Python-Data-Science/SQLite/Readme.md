@@ -17,6 +17,8 @@
 	- [SQLite Expert](http://www.sqliteexpert.com/download.html)
 	- Personal version은 freeware 이므로 사용할 수 있음
 
+
+
 ## **2. 파이썬과 함께 사용하기**
 
 1. 데이터베이스 접속 
@@ -51,10 +53,7 @@ with conn:
 		print(row)
 ```
 
-
-## **3. Data Definition Language(DDL)**
-
-1. 테이블 생성
+3. 테이블 생성
 
 ```{.python}
 cur = conn.cursor()
@@ -68,7 +67,7 @@ cur.execute('CREATE TABLE IF NOT EXISTS Eagles \
      PRIMARY KEY(back_no));')
 ```
 
-2. 테이블 추가 
+4. 테이블 추가 
 
 ```{.python
 cur = conn.cursor()
@@ -79,19 +78,19 @@ cur.execute("INSERT INTO Eagles VALUES \
 # INSERT INTO table_name (fiel1, file2, ...) VALUES ( data );
 ```
 
-3. 테이블 삭제
+5. 테이블 삭제
 ```{.python}
 cur.execute(‘DROP TABLE Eagles’)
 ```
 
-4. 테이블 변경사항 저장 
+6. 테이블 변경사항 저장 
 ```{.python}
 conn.commit()
 ```
 
-5. 파이썬으로 csv 파일을 읽은 후 데이터베이스에 추가 
+7. 파이썬으로 csv 파일을 읽은 후 데이터베이스에 추가 
 
-5.1 파이썬으로 csv 파일 읽기 
+7.1 파이썬으로 csv 파일 읽기 
 
 ```{.python}
 import pandas as pd
@@ -100,7 +99,7 @@ players = pd.read_csv('./players.csv', encoding='EUC-KR')  # 인코딩, 경로 �
 players  # 데이터 타입이 모두 문자열 
 ```
 
-5.2 읽은 파일을 데이터베이스에 저장 
+7.2 읽은 파일을 데이터베이스에 저장 
 
 ```{.python}
 cur = conn.cursor()
@@ -114,13 +113,15 @@ for i in range(10):
 conn.commit() # 변경사항 저장 
 ```
 
-6. 데이터베이스 종료
+8. 데이터베이스 종료
 
 ```{.python}
 conn.close()
 ```
 
-## **4. 데이터 조작 언어(Data Manipulation Language, DML)**
+<br>
+
+## **3. 데이터 조작 언어(Data Manipulation Language, DML)**
 
 1. 데이터 조회  
 ```{.python}
