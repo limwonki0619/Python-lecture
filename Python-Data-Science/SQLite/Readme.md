@@ -116,12 +116,6 @@ for i in range(10):
 conn.commit() # 변경사항 저장 
 ```
 
-### 2.7 데이터베이스 종료
-
-```{.python}
-conn.close()
-```
-
 <br>
 
 ## **3. 데이터 조작 언어(Data Manipulation Language, DML)**
@@ -239,4 +233,8 @@ cur = con.cursor()
 cur.execute(‘DELETE FROM Eagles WHERE back_no=1);’)
 ```
 
-4. 
+4. 종료하기 
+
+```{.python}
+conn.close()
+```
