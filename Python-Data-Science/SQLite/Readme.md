@@ -133,7 +133,6 @@ conn.commit() # 변경사항 저장
 ### **1. 데이터 조회** 
 
 ```{.python}
-
 # 1.1 순회 조회
 
 cur = conn.cursor()
@@ -234,6 +233,8 @@ cur.execute("UPDATE Eagles SET hands ='우투좌타', highschool='미국고', \
 conn.commit()
 ```
 
+<br>
+
 ### **3. 데이터 삭제**
 
 - DELETE FROM table WHERE 조건;
@@ -243,7 +244,94 @@ cur = con.cursor()
 cur.execute(‘DELETE FROM Eagles WHERE back_no=1);’)
 ```
 
-### **4. 종료하기** 
+<br>
+
+### **4. 테이블 병합**
+
+#### **4.1 병합을 위한 준비**
+
+```{.python}
+# 1. 테이블 생성 
+cur = conn.cursor()
+cur.execute('CREATE TABLE IF NOT EXISTS stats \
+    (id INT NOT NULL, \
+     player TEXT, \
+     average REAL, \
+     rbi INT, \
+     homerun INT, \
+     PRIMARY KEY(id));')
+```
+
+```{.python}
+# 2. 파이썬에서 'stats' csv 파일 읽기
+stats = pd.read_csv('./stats.csv', encoding='EUC-KR')
+stats
+```
+
+```{.python}
+# 3. 데이터베이스에 'stats' 테이블 추가
+cur = conn.cursor()
+sql = 'INSERT INTO stats VALUES (?, ?, ?, ?, ?);'
+for i in range(9):
+    cur.execute(sql, (i+1,
+                      stats.iloc[i,0],
+                      float(stats.iloc[i,1]),
+                      int(stats.iloc[i,2]),
+                      int(stats.iloc[i,3])
+                     ))
+conn.commit() # 변경사항 저장 
+```
+
+```{.python}
+# 4. stats 테이블 확인 
+cur = conn.cursor()
+cur.execute('SELECT * FROM stats')
+
+for row in cur:
+    print(row)
+```
+
+<br>
+
+#### **4.2 테이블 병합 및 데이터프레임으로 만들기**
+
+
+##### **4.2.1 데이터베이스에 있는 데이터 확인하기**
+```{.python}
+
+sql = "SELECT e.back_no, e.name, e.position, \
+        s.average, s.rbi, s.homerun \
+        FROM Eagles AS e JOIN stats AS s \
+        ON e.name like s.player;"
+
+cur = conn.cursor()
+cur.execute(sql)
+
+for row in cur:
+    print(row)
+```
+
+##### **4.2.2 데이터베이스에 있는 stats를 데이터프레임으로 만들기**
+
+```{.python}
+cur = conn.cursor()
+cur.execute(sql)
+
+rows = cur.fetchall()
+colName = ['등번호', '선수명', '포지션', '타율', '타점', '홈런']
+eagles_df = pd.DataFrame(columns = colName)  # 열 이름을 갖는 데이터프레임 생성 
+
+for row in rows:
+    eagles_df = eagles_df.append(pd.DataFrame([list(row)], 
+                                              columns = colName), # rows를 하나씩 데이터 프레임에 append 
+                                              ignore_index=True)
+    
+eagles_df  # rbind를 하나씩 하는 느낌
+```
+
+<br>
+
+### **종료하기** 
 
 ```{.python}
 conn.close()
