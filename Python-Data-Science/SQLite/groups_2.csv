@@ -1,6 +1,6 @@
-song_id,song_name,group_id,am_year,songwriter,intro_lyrics
-1001,Kill this love,블랙핑크,2019,TEDDV,천사 같은 Hi 끝엔 악마 같은 Bye
-1003,달라달라,ITZY,2019,별들의전쟁,DDA-DDA-LA-DDA-LA-DDA-LA
-1004,고고베베,마마무,2019,김건모,일루와 일루와 일루와 일루와
-1007,Loca,FAVORITE,2019,오종훈,힘풀려 널불러 눈풀려 널불러
-1009,그 시절 우리가 사랑했던 우리,러블리즈,2019,스페이스카우보이,아직도 펼쳐보면 웃음이 나와
+song_id,song_name,group_id,am_date,songwriter,intro_lyrics
+1001,Kill this love,블랙핑크,2009-04-05,TEDDV,천사 같은 Hi 끝엔 악마 같은 Bye
+1003,달라달라,ITZY,2009-02-12,별들의전쟁,DDA-DDA-LA-DDA-LA-DDA-LA
+1004,고고베베,마마무,2009-03-14,김건모,일루와 일루와 일루와 일루와
+1007,Loca,FAVORITE,2009-01-15,오종훈,힘풀려 널불러 눈풀려 널불러
+1009,그 시절 우리가 사랑했던 우리,러블리즈,2009-05-20,스페이스카우보이,아직도 펼쳐보면 웃음이 나와
