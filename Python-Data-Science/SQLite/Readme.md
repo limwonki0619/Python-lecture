@@ -17,13 +17,18 @@
 	- [SQLite Expert](http://www.sqliteexpert.com/download.html)
 	- Personal version은 freeware 이므로 사용할 수 있음
 
-## **2. 파이썬에서 사용하는 방법**
+<br>
 
-1. 데이터베이스 접속 
+## **2. 파이썬과 함께 사용하기**
+
+### 2.1 데이터베이스 접속 
+
+#### 2.1.1 기본적인 방법 
+
 ```{.python}  
 import sqlite3 
 conn = sqlite3.connect(':memory:') # 메모리 DB 접속(일회성) 
-conn = sqlite3.connect(‘./test.db') # 파일 DB 접속(일회성)
+# conn = sqlite3.connect(‘./test.db') # 파일 DB 접속(일회성)
 ```
 ```
 ...
@@ -36,7 +41,9 @@ conn.commit() # 변경사항 저장
 conn.close()
 ```
 
-2. with문 이용해 close 생략하는방법 
+
+#### 2.1.2 with문 이용해 close 생략하는방법 
+
 ```{.python}
 import sqlite3 
 conn = sqlite3.connect(‘./test.db')
@@ -48,29 +55,76 @@ with conn:
 	for row in rows: 
 		print(row)
 ```
-## **3. Data Definition Language(DDL)**
 
-1. 테이블 생성
+### 2.2 테이블 생성
+
 ```{.python}
-cur = conn.cursor() 
-cur.execute(‘CREATE TABLE IF NOT EXISTS Eagles 
-					  (back_no INT NOT NULL, 
-					   name TEXT, 
-					   position TEXT, 
-					   PRIMARY KEY(back_no));’)
+cur = conn.cursor()
+cur.execute('CREATE TABLE IF NOT EXISTS Eagles \
+    (back_no INT NOT NULL, \
+     name TEXT, \
+     position TEXT, \
+     hands TEXT, \
+     highschool TEXT, \
+     height INT, \
+     PRIMARY KEY(back_no));')
 ```
 
-2. 테이블 변셩 
+### 2.3 테이블 추가 
+
 ```{.python
-cur.execute(‘ALTER TABLE Eagles ADD COLUMN birth INTEGER’)
+cur = conn.cursor()
+cur.execute("INSERT INTO Eagles VALUES \
+    (1, '하주석', '내야수', '우투좌타', '신일고', 184), \
+    (28, '양성우', '외야수', '우투좌타', '충암고', 177);")
+
+# INSERT INTO table_name (fiel1, file2, ...) VALUES ( data );
 ```
 
-3. 테이블 삭제
+### 2.4 테이블 삭제 방법 (삭제할 필요가 있을 때 사용)
 ```{.python}
 cur.execute(‘DROP TABLE Eagles’)
 ```
 
-## **4. 데이터 조작 언어(Data Manipulation Language, DML)**
+### 2.5 테이블 변경사항 저장 
+```{.python}
+conn.commit()
+```
+
+### 2.6 파이썬으로 csv 파일을 읽은 후 데이터베이스에 추가 
+
+#### 2.6.1 파이썬으로 csv 파일 읽기 
+
+```{.python}
+import pandas as pd
+
+players = pd.read_csv('./players.csv', encoding='EUC-KR')  # 인코딩, 경로 주의 
+players  # 데이터 타입이 모두 문자열 
+```
+
+#### 2.6.2 읽은 파일을 데이터베이스에 저장 
+
+```{.python}
+cur = conn.cursor()
+sql = 'INSERT INTO Eagles VALUES (?, ?, ?, ?, ?, ?);'
+for i in range(10):
+    cur.execute(sql, (int(players.iloc[i,0]), # 데이터 타입 주의
+                      players.iloc[i,1], players.iloc[i,2], 
+                      players.iloc[i,3], players.iloc[i,4], 
+                      int(players.iloc[i,5])))
+		      
+conn.commit() # 변경사항 저장 
+```
+
+### 2.7 데이터베이스 종료
+
+```{.python}
+conn.close()
+```
+
+<br>
+
+## **3. 데이터 조작 언어(Data Manipulation Language, DML)**
 
 1. 데이터 조회  
 ```{.python}
