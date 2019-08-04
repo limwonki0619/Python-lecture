@@ -108,5 +108,11 @@
 ### **2019.07.31**
  > - [Pandas 데이터프레임 : 데이터 병합 및 연결](https://datascienceschool.net/view-notebook/7002e92653434bc88c8c026c3449d27b/)
  > - [Pandas 데이터프레임 : 피벗테이블과 그룹분석](https://datascienceschool.net/view-notebook/76dcd63bba2c4959af15bec41b197e7c/)
- > - [Pandas 데이터프레임 : 시꼐열 자료 다루기](https://datascienceschool.net/view-notebook/8959673a97214e8fafdb159f254185e9/)
+ > - [Pandas 데이터프레임 : 시계열 자료 다루기](https://datascienceschool.net/view-notebook/8959673a97214e8fafdb159f254185e9/)
  > - SQLite3 맛보기
+### **2019.08.01**
+ > - SQLite3와 Python 연동 및 사용하기
+### **2019.08.02**
+ > - [Matplotlib : 데이터 시각화](https://datascienceschool.net/view-notebook/d0b1637803754bb083b5722c9f2209d0/)
+ > - [Seaborn : 데이터 시각화](https://datascienceschool.net/view-notebook/4c2d5ff1caab4b21a708cc662137bc65/)
+ > - [Pandas : 데이터 시각화](https://datascienceschool.net/view-notebook/372443a5d90a46429c6459bba8b4342c/)
