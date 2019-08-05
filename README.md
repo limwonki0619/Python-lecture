@@ -116,3 +116,7 @@
  > - [Matplotlib : 데이터 시각화](https://datascienceschool.net/view-notebook/d0b1637803754bb083b5722c9f2209d0/)
  > - [Seaborn : 데이터 시각화](https://datascienceschool.net/view-notebook/4c2d5ff1caab4b21a708cc662137bc65/)
  > - [Pandas : 데이터 시각화](https://datascienceschool.net/view-notebook/372443a5d90a46429c6459bba8b4342c/)
+### **2019.08.05**
+ > - 파이썬으로 데이터 주무르기 Ch_01 : 서울시 구별 CCTV 현황 분석
+ > - 파이썬으로 데이터 주무르기 Ch_02 : 서울시 범죄 현황 분석
+ 
