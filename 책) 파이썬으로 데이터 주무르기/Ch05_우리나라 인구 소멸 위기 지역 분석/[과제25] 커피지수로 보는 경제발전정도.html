@@ -13572,9 +13572,22 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">folderpath</span> <span class="o">=</span> <span class="sa">r</span><span class="s1">&#39;C:\Users\709-000\Desktop\소상공인시장진흥공단_상가업소정보_201906&#39;</span>  <span class="c1"># 데이터 폴더 위치</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># folderpath = r&#39;C:\Users\709-000\Desktop\소상공인시장진흥공단_상가업소정보_201906&#39;  # 데이터 폴더 위치</span>
 
 <span class="n">shop_2019_1</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">folderpath</span><span class="o">+</span><span class="s2">&quot;/소상공인시장진흥공단_상가업소정보_201906_01.csv&quot;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">shop_2019_1</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -13590,260 +13603,53 @@ div#notebook {
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">UnicodeDecodeError</span>                        Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-3-e5a693522ebd&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">      1</span> folderpath <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-blue-intense-fg ansi-bold">r&#39;C:\Users\709-000\Desktop\소상공인시장진흥공단_상가업소정보_201906&#39;</span>  <span class="ansi-red-intense-fg ansi-bold"># 데이터 폴더 위치</span>
-<span class="ansi-green-fg">      2</span> 
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 3</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>shop_2019_1 <span class="ansi-yellow-intense-fg ansi-bold">=</span> pd<span class="ansi-yellow-intense-fg ansi-bold">.</span>read_csv<span class="ansi-yellow-intense-fg ansi-bold">(</span>folderpath<span class="ansi-yellow-intense-fg ansi-bold">+</span><span class="ansi-blue-intense-fg ansi-bold">&#34;/소상공인시장진흥공단_상가업소정보_201906_01.csv&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> encoding<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#39;utf-8&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\anaconda\lib\site-packages\pandas\io\parsers.py</span> in <span class="ansi-cyan-fg">parser_f</span><span class="ansi-blue-intense-fg ansi-bold">(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, squeeze, prefix, mangle_dupe_cols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, dayfirst, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, dialect, tupleize_cols, error_bad_lines, warn_bad_lines, delim_whitespace, low_memory, memory_map, float_precision)</span>
-<span class="ansi-green-fg">    700</span>                     skip_blank_lines=skip_blank_lines)
-<span class="ansi-green-fg">    701</span> 
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 702</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">return</span> _read<span class="ansi-yellow-intense-fg ansi-bold">(</span>filepath_or_buffer<span class="ansi-yellow-intense-fg ansi-bold">,</span> kwds<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    703</span> 
-<span class="ansi-green-fg">    704</span>     parser_f<span class="ansi-yellow-intense-fg ansi-bold">.</span>__name__ <span class="ansi-yellow-intense-fg ansi-bold">=</span> name
-
-<span class="ansi-green-intense-fg ansi-bold">C:\anaconda\lib\site-packages\pandas\io\parsers.py</span> in <span class="ansi-cyan-fg">_read</span><span class="ansi-blue-intense-fg ansi-bold">(filepath_or_buffer, kwds)</span>
-<span class="ansi-green-fg">    427</span> 
-<span class="ansi-green-fg">    428</span>     <span class="ansi-red-intense-fg ansi-bold"># Create the parser.</span>
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 429</span><span class="ansi-yellow-intense-fg ansi-bold">     </span>parser <span class="ansi-yellow-intense-fg ansi-bold">=</span> TextFileReader<span class="ansi-yellow-intense-fg ansi-bold">(</span>filepath_or_buffer<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kwds<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    430</span> 
-<span class="ansi-green-fg">    431</span>     <span class="ansi-green-intense-fg ansi-bold">if</span> chunksize <span class="ansi-green-intense-fg ansi-bold">or</span> iterator<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\anaconda\lib\site-packages\pandas\io\parsers.py</span> in <span class="ansi-cyan-fg">__init__</span><span class="ansi-blue-intense-fg ansi-bold">(self, f, engine, **kwds)</span>
-<span class="ansi-green-fg">    893</span>             self<span class="ansi-yellow-intense-fg ansi-bold">.</span>options<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;has_index_names&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span> <span class="ansi-yellow-intense-fg ansi-bold">=</span> kwds<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;has_index_names&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span>
-<span class="ansi-green-fg">    894</span> 
-<span class="ansi-green-intense-fg ansi-bold">--&gt; 895</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_make_engine<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>engine<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">    896</span> 
-<span class="ansi-green-fg">    897</span>     <span class="ansi-green-intense-fg ansi-bold">def</span> close<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\anaconda\lib\site-packages\pandas\io\parsers.py</span> in <span class="ansi-cyan-fg">_make_engine</span><span class="ansi-blue-intense-fg ansi-bold">(self, engine)</span>
-<span class="ansi-green-fg">   1120</span>     <span class="ansi-green-intense-fg ansi-bold">def</span> _make_engine<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">,</span> engine<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-blue-intense-fg ansi-bold">&#39;c&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">   1121</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> engine <span class="ansi-yellow-intense-fg ansi-bold">==</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;c&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 1122</span><span class="ansi-yellow-intense-fg ansi-bold">             </span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_engine <span class="ansi-yellow-intense-fg ansi-bold">=</span> CParserWrapper<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>f<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>options<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">   1123</span>         <span class="ansi-green-intense-fg ansi-bold">else</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">   1124</span>             <span class="ansi-green-intense-fg ansi-bold">if</span> engine <span class="ansi-yellow-intense-fg ansi-bold">==</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;python&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\anaconda\lib\site-packages\pandas\io\parsers.py</span> in <span class="ansi-cyan-fg">__init__</span><span class="ansi-blue-intense-fg ansi-bold">(self, src, **kwds)</span>
-<span class="ansi-green-fg">   1851</span>         kwds<span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;usecols&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span> <span class="ansi-yellow-intense-fg ansi-bold">=</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>usecols
-<span class="ansi-green-fg">   1852</span> 
-<span class="ansi-green-intense-fg ansi-bold">-&gt; 1853</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_reader <span class="ansi-yellow-intense-fg ansi-bold">=</span> parsers<span class="ansi-yellow-intense-fg ansi-bold">.</span>TextReader<span class="ansi-yellow-intense-fg ansi-bold">(</span>src<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kwds<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">   1854</span>         self<span class="ansi-yellow-intense-fg ansi-bold">.</span>unnamed_cols <span class="ansi-yellow-intense-fg ansi-bold">=</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_reader<span class="ansi-yellow-intense-fg ansi-bold">.</span>unnamed_cols
-<span class="ansi-green-fg">   1855</span> 
-
-<span class="ansi-green-intense-fg ansi-bold">pandas/_libs/parsers.pyx</span> in <span class="ansi-cyan-fg">pandas._libs.parsers.TextReader.__cinit__</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
-
-<span class="ansi-green-intense-fg ansi-bold">pandas/_libs/parsers.pyx</span> in <span class="ansi-cyan-fg">pandas._libs.parsers.TextReader._setup_parser_source</span><span class="ansi-blue-intense-fg ansi-bold">()</span>
-
-<span class="ansi-green-intense-fg ansi-bold">C:\anaconda\lib\genericpath.py</span> in <span class="ansi-cyan-fg">exists</span><span class="ansi-blue-intense-fg ansi-bold">(path)</span>
-<span class="ansi-green-fg">     17</span>     <span class="ansi-blue-intense-fg ansi-bold">&#34;&#34;&#34;Test whether a path exists.  Returns False for broken symbolic links&#34;&#34;&#34;</span>
-<span class="ansi-green-fg">     18</span>     <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 19</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>os<span class="ansi-yellow-intense-fg ansi-bold">.</span>stat<span class="ansi-yellow-intense-fg ansi-bold">(</span>path<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     20</span>     <span class="ansi-green-intense-fg ansi-bold">except</span> OSError<span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">     21</span>         <span class="ansi-green-intense-fg ansi-bold">return</span> <span class="ansi-green-intense-fg ansi-bold">False</span>
-
-<span class="ansi-red-intense-fg ansi-bold">UnicodeDecodeError</span>: &#39;utf-8&#39; codec can&#39;t decode byte 0xbc in position 25: invalid start byte</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 565016 entries, 0 to 565015
+Data columns (total 39 columns):
+상가업소번호       565016 non-null int64
+상호명          565015 non-null object
+지점명          75524 non-null object
+상권업종대분류코드    565016 non-null object
+상권업종대분류명     565016 non-null object
+상권업종중분류코드    565016 non-null object
+상권업종중분류명     565016 non-null object
+상권업종소분류코드    565016 non-null object
+상권업종소분류명     565016 non-null object
+표준산업분류코드     532064 non-null object
+표준산업분류명      532064 non-null object
+시도코드         565016 non-null int64
+시도명          565016 non-null object
+시군구코드        565016 non-null int64
+시군구명         565016 non-null object
+행정동코드        565016 non-null int64
+행정동명         565016 non-null object
+법정동코드        565016 non-null int64
+법정동명         565016 non-null object
+지번코드         565016 non-null int64
+대지구분코드       565016 non-null int64
+대지구분명        565016 non-null object
+지번본번지        565016 non-null int64
+지번부번지        467893 non-null float64
+지번주소         565016 non-null object
+도로명코드        565016 non-null int64
+도로명          565016 non-null object
+건물본번지        565016 non-null int64
+건물부번지        70852 non-null float64
+건물관리번호       565016 non-null object
+건물명          261208 non-null object
+도로명주소        565016 non-null object
+구우편번호        565016 non-null int64
+신우편번호        565007 non-null float64
+동정보          50214 non-null object
+층정보          344553 non-null object
+호정보          83136 non-null object
+경도           565016 non-null float64
+위도           565016 non-null float64
+dtypes: float64(5), int64(11), object(23)
+memory usage: 168.1+ MB
+</pre>
 </div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[97]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">shop_2019_1</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>  <span class="c1"># 데이터 확인 </span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[97]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>상가업소번호</th>
-      <th>상호명</th>
-      <th>지점명</th>
-      <th>상권업종대분류코드</th>
-      <th>상권업종대분류명</th>
-      <th>상권업종중분류코드</th>
-      <th>상권업종중분류명</th>
-      <th>상권업종소분류코드</th>
-      <th>상권업종소분류명</th>
-      <th>표준산업분류코드</th>
-      <th>...</th>
-      <th>건물관리번호</th>
-      <th>건물명</th>
-      <th>도로명주소</th>
-      <th>구우편번호</th>
-      <th>신우편번호</th>
-      <th>동정보</th>
-      <th>층정보</th>
-      <th>호정보</th>
-      <th>경도</th>
-      <th>위도</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>19911397</td>
-      <td>커피빈코리아선릉로93길점</td>
-      <td>코리아선릉로93길점</td>
-      <td>Q</td>
-      <td>음식</td>
-      <td>Q12</td>
-      <td>커피점/카페</td>
-      <td>Q12A01</td>
-      <td>커피전문점/카페/다방</td>
-      <td>I56220</td>
-      <td>...</td>
-      <td>1168010100106960042022041</td>
-      <td>NaN</td>
-      <td>서울특별시 강남구 선릉로93길 6</td>
-      <td>135080</td>
-      <td>6149.0</td>
-      <td>NaN</td>
-      <td>1</td>
-      <td>NaN</td>
-      <td>127.047883</td>
-      <td>37.505675</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>19911801</td>
-      <td>프로포즈</td>
-      <td>NaN</td>
-      <td>Q</td>
-      <td>음식</td>
-      <td>Q09</td>
-      <td>유흥주점</td>
-      <td>Q09A01</td>
-      <td>호프/맥주</td>
-      <td>I56219</td>
-      <td>...</td>
-      <td>1154510200101620001017748</td>
-      <td>NaN</td>
-      <td>서울특별시 금천구 가산로 34-6</td>
-      <td>153010</td>
-      <td>8545.0</td>
-      <td>NaN</td>
-      <td>1</td>
-      <td>NaN</td>
-      <td>126.899220</td>
-      <td>37.471711</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>19912201</td>
-      <td>싱싱커피&amp;토스트</td>
-      <td>NaN</td>
-      <td>Q</td>
-      <td>음식</td>
-      <td>Q07</td>
-      <td>패스트푸드</td>
-      <td>Q07A10</td>
-      <td>토스트전문</td>
-      <td>I56192</td>
-      <td>...</td>
-      <td>2653010400105780000002037</td>
-      <td>산업용품유통상가</td>
-      <td>부산광역시 사상구 괘감로 37</td>
-      <td>617726</td>
-      <td>46977.0</td>
-      <td>NaN</td>
-      <td>1</td>
-      <td>26</td>
-      <td>128.980455</td>
-      <td>35.159774</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>19905471</td>
-      <td>와라와라호프</td>
-      <td>NaN</td>
-      <td>Q</td>
-      <td>음식</td>
-      <td>Q09</td>
-      <td>유흥주점</td>
-      <td>Q09A01</td>
-      <td>호프/맥주</td>
-      <td>I56219</td>
-      <td>...</td>
-      <td>1168010600106040000014378</td>
-      <td>대치상가</td>
-      <td>서울특별시 강남구 남부순환로 2933</td>
-      <td>135280</td>
-      <td>6280.0</td>
-      <td>NaN</td>
-      <td>1</td>
-      <td>NaN</td>
-      <td>127.061026</td>
-      <td>37.493922</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>19932756</td>
-      <td>가락사우나내스낵</td>
-      <td>NaN</td>
-      <td>F</td>
-      <td>생활서비스</td>
-      <td>F09</td>
-      <td>대중목욕탕/휴게</td>
-      <td>F09A02</td>
-      <td>사우나/증기탕/온천</td>
-      <td>S96121</td>
-      <td>...</td>
-      <td>1171010500102560005010490</td>
-      <td>NaN</td>
-      <td>서울특별시 송파구 가락로 71</td>
-      <td>138846</td>
-      <td>5690.0</td>
-      <td>NaN</td>
-      <td>1</td>
-      <td>NaN</td>
-      <td>127.104071</td>
-      <td>37.500249</td>
-    </tr>
-  </tbody>
-</table>
-<p>5 rows × 39 columns</p>
-</div>
-</div>
-
 </div>
 
 </div>
