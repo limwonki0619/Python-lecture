@@ -13096,7 +13096,7 @@ a:link {
 }
 body,
 .CodeMirror {
-  font-family: Roboto, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font-family: NanumBarunGothic;
 }
 body.notebook_app {
   background-color: white;
@@ -13529,7 +13529,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="1.-Matplotlib-Import"><strong>1. Matplotlib Import</strong><a class="anchor-link" href="#1.-Matplotlib-Import">&#182;</a></h3><ul>
-<li>Anaconda 설치 후 font를 설치한 경우라면 <strong>Anaconda에서 폰트를 인식하지 못하는데,</strong> 우선 아래 폴더를 삭제해 준다.</li>
+<li>Anaconda 설치 후 새로운 폰트를 설치한 경우라면 <strong>Anaconda에서 폰트를 인식하지 못하는데,</strong> 우선 아래 폴더를 삭제해 준다.</li>
 <li>(Windows 운영체제의 경우) <strong>C:\Users{사용자 이름}.matplotlib</strong></li>
 </ul>
 <p>단,</p>
@@ -13628,12 +13628,12 @@ C:\Windows\Fonts\BMHANNA_11yrs_ttf.ttf
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="3.-&#51204;&#50669;-&#54256;&#53944;-&#49444;&#51221;"><strong>3. &#51204;&#50669; &#54256;&#53944; &#49444;&#51221;</strong><a class="anchor-link" href="#3.-&#51204;&#50669;-&#54256;&#53944;-&#49444;&#51221;">&#182;</a></h3><ul>
-<li>전역 폰트는 주피터 파일 전체에 한번에 적용하는 폰트 설정을 말한다.</li>
-<li>원하는 폰트와 폰트사이즈를 선택했다면, 다른 파일에서는 아래 코드만 실행하면 된다.</li>
-<li>이 방법은 파일을 새로 생성할 때 마다 실행해줘야 하는데, 아예 주피터노트북 전체 기본설정을 가진 matplotlibbrc 파일을 직접 수정하는경우 폰트가 적용되지 않았다. 방법은 추후에...<br>
-<br></li>
-<li>matplotlibrc 파일의 위치를 찾는 방법은 다음과 같다.  
-<pre><code>  print ('설정 파일 위치: ', mpl.matplotlib_fname()) </code></pre>
+<li>전역 폰트는 주피터 파일에 한번에 적용하는 폰트 설정을 말한다.</li>
+<li>원하는 폰트와 폰트사이즈를 선택했다면, 다른 주피터 실행 파일에서는 아래 코드만 실행하면 된다.</li>
+<li><p>이 방법은 파일을 새로 생성할 때 마다 실행해줘야 한다. 
+<br></p>
+</li>
+<li><p><del>아예 주피터노트북 전체 기본설정을 가진 matplotlibbrc 파일을 직접 수정하는경우 폰트가 적용되지 않았다. 방법은 추후에..</del>.</p>
 </li>
 </ul>
 
@@ -13656,7 +13656,7 @@ C:\Windows\Fonts\BMHANNA_11yrs_ttf.ttf
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib</span> <span class="k">as</span> <span class="nn">mpl</span>
@@ -13665,11 +13665,12 @@ C:\Windows\Fonts\BMHANNA_11yrs_ttf.ttf
 
 <span class="c1"># fm._rebuild() # &lt;- 코드로 아나콘다에서 인식하지 못한 폰트를 업데이트 해준다.</span>
 
-<span class="n">font_fname</span> <span class="o">=</span> <span class="s1">&#39;C:/Windows/Fonts/NanumBarunGothic.ttf&#39;</span>  <span class="c1"># NanumBarunGothic.ttf를 원하는 폰트명으로 바꾼다.</span>
+<span class="n">font_fname</span> <span class="o">=</span> <span class="s1">&#39;C:/Windows/Fonts/NanumGothic.ttf&#39;</span>  <span class="c1"># 원하는 폰트 </span>
 <span class="n">font_family</span> <span class="o">=</span> <span class="n">fm</span><span class="o">.</span><span class="n">FontProperties</span><span class="p">(</span><span class="n">fname</span><span class="o">=</span><span class="n">font_fname</span><span class="p">)</span><span class="o">.</span><span class="n">get_name</span><span class="p">()</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;font.family&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">font_family</span>
 
 <span class="o">%</span><span class="k">matplotlib</span> inline 
+<span class="n">mpl</span><span class="o">.</span><span class="n">rc</span><span class="p">(</span><span class="s1">&#39;axes&#39;</span><span class="p">,</span> <span class="n">unicode_minus</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>        <span class="c1"># 마이너스(&#39;-&#39;) 폰트 깨지는 문제에 대한 대처</span>
 </pre></div>
 
     </div>
@@ -13856,19 +13857,6 @@ C:\Windows\Fonts\BMHANNA_11yrs_ttf.ttf
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-    </div>
-</div>
-</div>
-
 </div>
     </div>
   </div>
