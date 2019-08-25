@@ -1,6 +1,8 @@
 
 # **기본 인덱싱 정리**
 
+- [판다스 튜토리얼](https://riptutorial.com/ko/pandas/topic/796/%ED%8C%AC%EB%8D%94-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0)
+
 ### **열 인덱싱**
 
 - `df['열1']` : 하나의 열을 **시리즈**로 반환 
